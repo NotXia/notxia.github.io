@@ -8,8 +8,9 @@
 <script setup lang="ts">
     import { onMounted } from "vue";
     import { RouterView } from "vue-router";
-
+    import { applyTheme } from "./utilities/theme_handler";
+    
     onMounted(() => {
-        document.documentElement.classList.add("dark");
+        applyTheme();
     })
 </script>
