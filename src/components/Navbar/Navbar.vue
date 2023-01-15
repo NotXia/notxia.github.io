@@ -6,6 +6,7 @@
         <div class="block md:flex">
             <div class="flex justify-end items-center order-2">
                 <ThemeSwitch />
+                <LanguageSelector />
 
                 <button class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 md:hidden dark:text-gray-400"
                     data-collapse-toggle="navbar-main" type="button" aria-controls="navbar-main" aria-expanded="false">
@@ -32,5 +33,6 @@
 <script setup lang="ts">
     import NavLink from "./NavLink.vue";
     import ThemeSwitch from "../ThemeSwitch/ThemeSwitch.vue";
-    import "flowbite";
+    import LanguageSelector from "../LanguageSelector/LanguageSelector.vue";
+    import { Dropdown } from "flowbite";
 </script>
