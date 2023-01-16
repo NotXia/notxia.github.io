@@ -10,7 +10,7 @@
 
                 <button class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 md:hidden dark:text-gray-400"
                     data-collapse-toggle="navbar-main" type="button" aria-controls="navbar-main" aria-expanded="false">
-                    <span class="sr-only">Apri menù navigazione</span>
+                    <span class="sr-only">{{ t("open nav") }}</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
                     </svg>
@@ -20,7 +20,11 @@
             <div class="flex items-center order-1">
                 <div class="hidden w-full md:block md:w-auto" id="navbar-main">
                     <ul class="flex flex-col py-4 pr-4 mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium bg-transparent">
-                        <NavLink to="/" label="Home"/>
+                        <NavLink to="/" :label="t('home')"/>
+                        <NavLink to="/about" :label="t('about')"/>
+                        <NavLink to="/projects" :label="t('projects')"/>
+                        <NavLink to="/resume" :label="t('resume')"/>
+                        <NavLink to="/contacts" :label="t('contacts')"/>
                     </ul>
                 </div>
             </div>
@@ -32,7 +36,16 @@
 
 <script setup lang="ts">
     import NavLink from "./NavLink.vue";
-    import ThemeSwitch from "../ThemeSwitch/ThemeSwitch.vue";
-    import LanguageSelector from "../LanguageSelector/LanguageSelector.vue";
-    import { Dropdown } from "flowbite";
+    import ThemeSwitch from "../theme-switch/ThemeSwitch.vue";
+    import LanguageSelector from "../language-selector/LanguageSelector.vue";
+    import { initDropdowns } from "flowbite";
+    import { useI18n } from "vue-i18n";
+    import locale from "./locale.json";
+    import { onMounted } from "vue";
+
+    const { t } = useI18n({ messages: locale });
+
+    onMounted(() => {
+        initDropdowns();
+    }) 
 </script>

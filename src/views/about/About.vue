@@ -12,7 +12,7 @@
 
 
 <script setup lang="ts">
-    import Navbar from "@/components/Navbar/Navbar.vue";
+    import Navbar from "@/components/navbar/Navbar.vue";
     import { useI18n } from "vue-i18n";
     import locale from "./locale.json";
 

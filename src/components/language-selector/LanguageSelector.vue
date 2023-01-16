@@ -28,8 +28,13 @@
 </template>
 
 <script setup lang="ts">
-    import { Dropdown } from "flowbite";
+    import { initDropdowns } from "flowbite";
     import { setLocale } from "@/utilities/locale_handler";
+    import { onMounted } from "vue";
+
+    onMounted(() => {
+        initDropdowns();
+    })
 
     function changeLocale(e:any) {
         setLocale(e.target.value);
