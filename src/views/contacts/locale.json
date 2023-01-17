@@ -1,8 +1,8 @@
 {
     "en": {
-        "hello": "Hello"
+        "contacts": "Contacts"
     },
     "it": {
-        "hello": "Ciao"
+        "contacts": "Contatti"
     }
 }
