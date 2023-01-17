@@ -41,7 +41,7 @@
     import NavLink from "./NavLink.vue";
     import ThemeSwitch from "../theme-switch/ThemeSwitch.vue";
     import LanguageSelector from "../language-selector/LanguageSelector.vue";
-    import { initDropdowns } from "flowbite";
+    import { initCollapses } from "flowbite";
     import { useI18n } from "vue-i18n";
     import locale from "./locale.json";
     import { onMounted } from "vue";
@@ -51,6 +51,7 @@
     const { t } = useI18n({ messages: locale });
 
     onMounted(() => {
-        initDropdowns();
+        console.log("A")
+        initCollapses();
     }) 
 </script>
