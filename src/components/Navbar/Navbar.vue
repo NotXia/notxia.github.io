@@ -5,6 +5,9 @@
 
         <div class="block md:flex">
             <div class="flex justify-end items-center order-2">
+                <a href="https://github.com/NotXia" class="rounded-full p-1 hover:bg-slate-200 dark:hover:bg-slate-700">
+                    <img :src="github_icon" alt="Github" class="h-5 dark:invert" /> 
+                </a>
                 <ThemeSwitch />
                 <LanguageSelector />
 
@@ -42,6 +45,8 @@
     import { useI18n } from "vue-i18n";
     import locale from "./locale.json";
     import { onMounted } from "vue";
+
+    import github_icon from "@/assets/icons/github.svg";
 
     const { t } = useI18n({ messages: locale });
 
