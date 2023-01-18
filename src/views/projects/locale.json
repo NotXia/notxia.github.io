@@ -1,8 +1,12 @@
 {
     "en": {
-        "hello": "Hello"
+        "projects": "Projects",
+        "wip": "Currently I'm working on",
+        "completed": "Completed projects"
     },
     "it": {
-        "hello": "Ciao"
+        "projects": "Progetti",
+        "wip": "Attualmente sto lavorando a",
+        "completed": "Progetti completati"
     }
 }
