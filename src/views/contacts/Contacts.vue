@@ -3,7 +3,7 @@
         <Navbar />
     </div>
 
-    <main class="absolute top-0 h-screen w-screen z-0">
+    <main class="absolute top-0 left-0 h-screen w-screen z-0">
         <div class="flex justify-center items-center h-full w-full">
             <div>
                 <h1 class="text-5xl font-bold text-center">{{ t("contacts") }}</h1>
