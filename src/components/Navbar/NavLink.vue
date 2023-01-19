@@ -1,8 +1,8 @@
 <template>
     <li>
         <router-link :to="props.to" :aria-current="is_active_page ? 'page' : null"
-                    :class="`block py-2 md:p-0 text-right md:text-center text-gray-700 dark:text-slate-50
-                             ${is_active_page ? 'font-bold' : 'font-normal hover:underline'}`">
+                    :class="`block py-2 md:p-0 text-right md:text-center 
+                             ${is_active_page ? 'font-bold text-zinc-900 dark:text-zinc-400' : 'font-normal hover:underline text-gray-700 dark:text-slate-50'}`">
             {{ props.label }}
         </router-link>
     </li>
