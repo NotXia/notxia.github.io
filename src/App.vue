@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-white text-gray-900
-                dark:bg-gray-900 min-h-screen dark:text-slate-50"
+    <div class="bg-white text-gray-900 min-h-screen h-full
+                dark:bg-gray-900 dark:text-slate-50"
          style="font-family: 'Comfortaa';">
-        <div class="container mx-auto md:px-8">
+        <div class="container mx-auto pb-8 md:px-8 h-full w-full">
             <RouterView />
         </div>
     </div>
