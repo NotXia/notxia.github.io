@@ -2,7 +2,9 @@
     <div class="bg-white text-gray-900
                 dark:bg-gray-900 min-h-screen dark:text-slate-50"
          style="font-family: 'Comfortaa';">
-        <RouterView />
+        <div class="container mx-auto md:px-8">
+            <RouterView />
+        </div>
     </div>
 </template>
 
