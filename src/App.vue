@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white text-gray-900 min-h-screen h-full
+    <div class="bg-gray-100 text-gray-900 min-h-screen h-full
                 dark:bg-gray-900 dark:text-slate-50"
          style="font-family: 'Comfortaa';">
         <div class="container mx-auto pb-8 md:px-8 h-full w-full">
