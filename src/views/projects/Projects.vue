@@ -1,7 +1,7 @@
 <template>
     <Navbar />
 
-    <main class="container mx-auto p-4">
+    <main>
         <h1 class="text-5xl font-bold text-center mb-5">{{ t("projects") }}</h1>
         <h2 class="text-3xl text-center mt-10 mb-3">{{ t("wip") }}</h2>
 
