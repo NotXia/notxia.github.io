@@ -1,15 +1,15 @@
 <template>
     <nav class="bg-white border-gray-200 dark:bg-gray-900 px-2 sm:px-4 py-2.5 ">
-    <div class="container flex flex-wrap items-center justify-between mx-auto">
+    <div class="container flex flex-wrap items-center justify-between md:justify-start mx-auto">
         <div></div>
 
         <div class="block md:flex">
             <div class="flex justify-end items-center order-2">
-                <a href="https://github.com/NotXia" class="rounded-full p-1 hover:bg-slate-200 dark:hover:bg-slate-700">
+                <a href="https://github.com/NotXia" class="rounded-full p-1 mx-1 hover:bg-slate-200 dark:hover:bg-slate-700">
                     <img :src="github_icon" alt="Github" class="h-5 dark:invert" /> 
                 </a>
-                <ThemeSwitch />
-                <LanguageSelector />
+                <ThemeSwitch class="mx-1" />
+                <LanguageSelector class="mx-1" />
 
                 <button class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 md:hidden dark:text-gray-400"
                     data-collapse-toggle="navbar-main" type="button" aria-controls="navbar-main" aria-expanded="false">
@@ -51,7 +51,6 @@
     const { t } = useI18n({ messages: locale });
 
     onMounted(() => {
-        console.log("A")
         initCollapses();
     }) 
 </script>
