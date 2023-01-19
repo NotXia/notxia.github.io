@@ -1,33 +1,36 @@
 <template>
-    <div class="w-full">
-        <p>{{ t("now reading") }}</p>
-        <div id="gr_grid_widget_1673812364" class="h-32"></div>
+    <div class="h-full w-fit">
+        <div v-if="is_loading" class="flex h-full w-full items-center justify-center">
+            <span class="animate-ping absolute inline-flex h-5 w-5 rounded-full bg-slate-800 dark:bg-slate-200 opacity-75"></span>
+        </div>
+
+        <div v-show="!is_loading" id="gr_grid_widget_1673812364" class="h-full"></div>
     </div>
 </template>
 
 <script setup lang="ts">
-    import { onMounted } from "vue";
-    import { useI18n } from "vue-i18n";
+    import { onMounted, ref } from "vue";
 
-    const { t } = useI18n({ messages: 
-        {
-            it: {
-                "now reading": "Attualmente sto leggendo"
-            },
-            en: {
-                "now reading": "Currently I'm reading"
-            }
-        } 
-    });
+    const is_loading = ref(true);
 
     onMounted(() => {
-        if (document.getElementById("script-goodreads")) return;
+        if (document.querySelector("#script-goodreads")) { document.querySelector("#script-goodreads")?.remove() };
 
-        var scriptTag = document.createElement("script");
+        let scriptTag = document.createElement("script");
         scriptTag.src = "https://www.goodreads.com/review/grid_widget/158866642?cover_size=medium&hide_link=true&hide_title=true&num_books=20&order=d&shelf=currently-reading&sort=date_updated&widget_id=1673812364";
         scriptTag.id = "script-goodreads";
         scriptTag.type = "text/javascript";
         document.getElementsByTagName("head")[0].appendChild(scriptTag);
+
+        let observer = new MutationObserver(function(mutations) {
+            // @ts-ignore
+            // Replaces the book covers with a higher resolution image
+            document.querySelectorAll("#gr_grid_widget_1673812364 > * img").forEach((image) => image.src = image.src.replace("_SX98_", "_SY475_"));
+            
+            observer.disconnect();
+            is_loading.value = false;
+        });
+        observer.observe((document.querySelector("#gr_grid_widget_1673812364") as Node), { childList: true });
     })
 </script>
 
@@ -43,6 +46,7 @@
         margin-right: 0.5rem;
         overflow: hidden;
         border-radius: 0.2rem;
+        border: 1px solid #424242;
     }
     .gr_grid_book_container:first-child {
         margin-left: 0;
