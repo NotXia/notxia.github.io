@@ -1,9 +1,9 @@
 <template>
-    <p class="my-4 text-center">
+    <p class="my-4 text-left md:text-center">
         <a :href="props.url">
             <div class="inline-flex items-center">
                 <img :src="props.icon" alt="Github" class="h-7 mr-2 select-none dark:invert" /> 
-                <span class="text-xl truncate">{{ props.label }}</span>
+                <span class="text-xl text-left">{{ props.label }}</span>
             </div>
         </a>
     </p>
