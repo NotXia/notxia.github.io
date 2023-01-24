@@ -1,15 +1,16 @@
 <template>
     <div class="w-full h-full" ref="container_timeline">
         <div class="flex justify-center w-full h-full" v-if="month_offset > 0 && min_date && max_date">
+            
             <!-- Left side -->
             <ol class="relative border-r text-right w-1/2 border-zinc-200 dark:border-zinc-700">                  
-                <li class="mr-4 absolute right-0" v-for="event in left_events" :key="props.left[event.index].title" :style="`top: ${event.offset*month_offset + 10}px`">
+                <li class="mr-4 absolute right-0" v-for="event in left_events" :key="props.left[event.index].title" :style="`top: ${event.offset*month_offset}px`">
                     <div class="relative">
                         <!-- Start point -->
                         <div class="absolute w-3 h-3 z-10 bg-gray-400 rounded-full border border-white dark:border-gray-900 dark:bg-gray-500" style="right: -1.43rem"></div>
                         <div v-if="monthDifference(props.left[event.index].start, props.left[event.index].end) > 0" >
                             <!-- End point -->
-                            <div class="absolute w-3 h-3 z-10 bg-gray-400 rounded-full border border-white dark:border-gray-900 dark:bg-gray-500" :style="`right: -1.43rem; bottom: 0`"></div>
+                            <div v-if="!props.left[event.index].current" class="absolute w-3 h-3 z-10 bg-gray-400 rounded-full border border-white dark:border-gray-900 dark:bg-gray-500" style="right: -1.43rem; bottom: 0"></div>
                             <!-- Interval line -->
                             <div class="absolute rounded-full border-l-2 border-gray-400 dark:border-gray-500" style="height: 100%; top: 0; right: -1.12rem"></div>
                         </div>
@@ -29,13 +30,13 @@
 
             <!-- Right side -->
             <ol class="relative w-1/2 border-l border-zinc-200 dark:border-zinc-700">                  
-                <li class="ml-4 absolute left-0" v-for="event in right_events" :key="props.right[event.index].title" :style="`top: ${event.offset*month_offset + 10}px`">
+                <li class="ml-4 absolute left-0" v-for="event in right_events" :key="props.right[event.index].title" :style="`top: ${event.offset*month_offset}px`">
                     <div class="relative">
                         <!-- Start point -->
-                        <div class="absolute w-3 h-3 z-10 bg-gray-400 rounded-full border border-white dark:border-gray-900 dark:bg-gray-500" style="left: -1.43rem"></div>
+                        <div class="absolute w-3 h-3 z-10 bg-gray-400 rounded-full border border-white dark:border-gray-900 dark:bg-gray-500" style="left: -1.43rem; bottom: 0"></div>
                         <div v-if="monthDifference(props.right[event.index].start, props.right[event.index].end) > 0">
                             <!-- End point -->
-                            <div  class="absolute w-3 h-3 z-10 bg-gray-400 rounded-full border border-white dark:border-gray-900 dark:bg-gray-500" :style="`left: -1.43rem; bottom: 0`"></div>
+                            <div v-if="!props.right[event.index].current" class="absolute w-3 h-3 z-10 bg-gray-400 rounded-full border border-white dark:border-gray-900 dark:bg-gray-500" style="left: -1.43rem"></div>
                             <!-- Interval line -->
                             <div class="absolute rounded-full border-l-2 border-we border-gray-400 dark:border-gray-500" style="height: 100%; top: 0; left: -1.12rem"></div>
                         </div>
@@ -50,8 +51,8 @@
                     </div>
                 </li>
             </ol>
-        </div>
 
+        </div>
     </div>
 </template>
 
@@ -61,7 +62,7 @@
 
     interface Event {
         title: string, description: string, time_label: string,
-        start: Date, end: Date
+        start: Date, end: Date, current?: boolean
     };
     const props = defineProps({
         right: {

@@ -12,7 +12,7 @@
                         { 
                             title: t('bachelor'), time_label: '2020 - 2023',
                             description: t('bachelor description'), 
-                            start: new Date(2020, september, 1), end: new Date(2023, december, 1)
+                            start: new Date(2020, september, 1), end: new Date(), current: true
                         }
                     ]"
                     :left="[
