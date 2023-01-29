@@ -5,6 +5,8 @@
         <div class="container mx-auto pb-8 px-3 md:px-8 min-h-screen min-w-screen flex flex-col">
             <RouterView />
         </div>
+
+        <Cookie />
     </div>
 </template>
 
@@ -12,6 +14,7 @@
     import { onMounted } from "vue";
     import { RouterView } from "vue-router";
     import { applyTheme } from "./utilities/theme_handler";
+    import Cookie from "@/components/cookie/Cookie.vue";
     
     onMounted(() => {
         applyTheme();
