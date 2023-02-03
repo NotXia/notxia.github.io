@@ -17,9 +17,9 @@
                         
                         <div class="flex items-center" :style="`height: ${monthDifference(props.left[event.index].start, props.left[event.index].end)*month_offset}px`">
                             <div>
-                                <span class="mb-0 text-sm font-normal leading-5 whitespace-pre-wrap text-gray-500 dark:text-gray-400">{{ props.left[event.index].time_label }}</span>
-                                <h3 class="text-lg mb-0 font-semibold leading-5 whitespace-pre-wrap text-gray-900 dark:text-white">{{ props.left[event.index].title }}</h3>
-                                <p class="mb-0 text-base font-normal leading-5 whitespace-pre-wrap text-gray-500 dark:text-gray-400">{{ props.left[event.index].description }}</p>
+                                <span class="text-xs mb-0 font-normal leading-5 whitespace-pre-wrap text-gray-500 dark:text-gray-400">{{ props.left[event.index].time_label }}</span>
+                                <h3 class="text-base mb-0 font-semibold leading-5 whitespace-pre-wrap text-gray-900 dark:text-white">{{ props.left[event.index].title }}</h3>
+                                <p class="text-sm mb-0 font-normal leading-5 whitespace-pre-wrap text-gray-500 dark:text-gray-400">{{ props.left[event.index].description }}</p>
                             </div>
                         </div>
                     </div>
@@ -43,9 +43,9 @@
                         
                         <div class="flex items-center" :style="`height: ${monthDifference(props.right[event.index].start, props.right[event.index].end)*month_offset}px`">
                             <div>
-                                <span class="mb-0 text-sm font-normal leading-5 whitespace-pre-wrap text-gray-500 dark:text-gray-400">{{ props.right[event.index].time_label }}</span>
-                                <h3 class="mb-0 text-lg font-semibold leading-5 whitespace-pre-wrap text-gray-900 dark:text-white">{{ props.right[event.index].title }}</h3>
-                                <p class="mb-0 text-base font-normal leading-5 whitespace-pre-wrap text-gray-500 dark:text-gray-400">{{ props.right[event.index].description }}</p>
+                                <span class="mb-0 text-xs font-normal leading-5 whitespace-pre-wrap text-gray-500 dark:text-gray-400">{{ props.right[event.index].time_label }}</span>
+                                <h3 class="mb-0 text-base font-semibold leading-5 whitespace-pre-wrap text-gray-900 dark:text-white">{{ props.right[event.index].title }}</h3>
+                                <p class="mb-0 text-sm font-normal leading-5 whitespace-pre-wrap text-gray-500 dark:text-gray-400">{{ props.right[event.index].description }}</p>
                             </div>
                         </div>
                     </div>
