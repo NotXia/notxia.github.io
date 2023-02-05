@@ -4,7 +4,11 @@
         :description="t('description')" 
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/imaging' }
-        ]" />
+        ]">
+        
+        <p class="text-center">{{ t("unibo") }}</p>
+        <p>{{ t('description') }}</p>
+    </ProjectCard>
 </template>
 
 
@@ -15,13 +19,15 @@
 
     const { t } = useI18n({ messages: {
         en: {
+            unibo: "University of Bologna, A.Y. 2021-2022",
             description:
-                "Project for the Numerical Computing course (University of Bologna, A.Y. 2021-2022).\n" +
+                "Project for the Numerical Computing course.\n" +
                 "Image deblurring solved as a minimization problem."
         },
         it: {
+            unibo: "Università di Bologna, A.A. 2021-2022",
             description:
-                "Progetto per il corso di Calcolo Numerico (Università di Bologna, A.A. 2021-2022).\n" +
+                "Progetto per il corso di Calcolo Numerico.\n" +
                 "Deblurring di immagini risolto come problema di minimizzazione."
         }
     } });

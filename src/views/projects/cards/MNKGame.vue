@@ -4,7 +4,11 @@
         :description="t('description')" 
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/MNKGame' }
-        ]" />
+        ]">
+        
+        <p class="text-center">{{ t("unibo") }}</p>
+        <p>{{ t('description') }}</p>
+    </ProjectCard>
 </template>
 
 
@@ -15,13 +19,15 @@
 
     const { t } = useI18n({ messages: {
         en: {
+            unibo: "University of Bologna, A.Y. 2020-2021",
             description:
-                "Project for the Algorithms and Data Structures course (University of Bologna, A.Y. 2020-2021).\n" +
+                "Project for the Algorithms and Data Structures course.\n" +
                 "Algorithm able to efficiently play a generalized version of tic-tac-toe."
         },
         it: {
+            unibo: "Università di Bologna, A.A. 2020-2021",
             description:
-                "Progetto per il corso di Algoritmi e Strutture Dati (Università di Bologna, A.A. 2020-2021).\n" +
+                "Progetto per il corso di Algoritmi e Strutture Dati.\n" +
                 "Algoritmo in grado di giocare in modo efficiente ad una versione generalizzata del tris."
         }
     } });

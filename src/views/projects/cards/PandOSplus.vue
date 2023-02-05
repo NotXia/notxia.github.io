@@ -4,7 +4,11 @@
         :description="t('description')" 
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/pandos-plus' }
-        ]"/>
+        ]">
+        
+        <p class="text-center">{{ t("unibo") }}</p>
+        <p>{{ t('description') }}</p>
+    </ProjectCard>
 </template>
 
 
@@ -14,13 +18,15 @@
 
     const { t } = useI18n({ messages: {
         en: {
+            unibo: "University of Bologna, A.Y. 2021-2022",
             description:
-                "Project for the Operating Systems course (University of Bologna, A.Y. 2021-2022).\n" +
+                "Project for the Operating Systems course.\n" +
                 "Minimal operating system for the MIPS architecture."
         },
         it: {
+            unibo: "Università di Bologna, A.A. 2021-2022",
             description:
-                "Progetto per il corso di Sistemi Operativi (Università di Bologna, A.A. 2021-2022).\n" +
+                "Progetto per il corso di Sistemi Operativi.\n" +
                 "Sistema operativo minimale per architettura MIPS."
         }
     } });
