@@ -5,7 +5,10 @@
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/sorting-visualizer' },
             { label: 'Demo', url: 'https://notxia.github.io/sorting-visualizer/' }
-        ]" />
+        ]">
+              
+        {{ t('description') }}
+    </ProjectCard>
 </template>
 
 

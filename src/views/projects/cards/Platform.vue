@@ -4,7 +4,11 @@
         :description="t('description')" 
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/platform-game' }
-        ]" />
+        ]">
+        
+        <p class="text-center">{{ t("unibo") }}</p>
+        <p>{{ t('description') }}</p>
+    </ProjectCard>
 </template>
 
 
@@ -15,13 +19,15 @@
 
     const { t } = useI18n({ messages: {
         en: {
+            unibo: "University of Bologna, A.Y. 2020-2021",
             description:
-                "Project for the Programmin course (University of Bologna, A.Y. 2020-2021).\n" +
+                "Project for the Programmin course.\n" +
                 "Text based platform game with randomly generated levels."
         },
         it: {
+            unibo: "Università di Bologna, A.A. 2020-2021",
             description:
-                "Progetto per il corso di Programmazione (Università di Bologna, A.A. 2020-2021).\n" +
+                "Progetto per il corso di Programmazione.\n" +
                 "Gioco platform su terminale con livelli generati casualmente."
         }
     } });

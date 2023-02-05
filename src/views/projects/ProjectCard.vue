@@ -5,7 +5,7 @@
             <a v-for="link in props.links" :href="link.url" class="font-mono inline-block hover:underline mx-2">{{ link.label }}</a>
         </div>
         <p class="text-lg whitespace-pre-wrap mb-2 text-gray-500 dark:text-gray-400">
-            {{ props.description }}
+            <slot></slot>
         </p>
         <img :src="props.image" alt="" class="max-w-full max-h-96 mx-auto">
     </div>
@@ -17,7 +17,6 @@
 
     const props = defineProps({
         title: String,
-        description: String,
         links: Object as PropType<{ label: string, url: string }[]>,
         image: String
     });

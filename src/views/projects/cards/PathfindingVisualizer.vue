@@ -5,7 +5,10 @@
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/pathfinding-visualizer' },
             { label: 'Demo', url: 'https://notxia.github.io/pathfinding-visualizer/' }
-        ]" />
+        ]">
+
+        {{ t('description') }}
+    </ProjectCard>
 </template>
 
 
