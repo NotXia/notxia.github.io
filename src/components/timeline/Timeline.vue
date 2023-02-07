@@ -118,6 +118,6 @@
             index: index
         }));
 
-        window.addEventListener("resize", updateTimelineSize);
+        new ResizeObserver(updateTimelineSize).observe(document.querySelector("#app") as Element)
     })
 </script>
