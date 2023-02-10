@@ -6,7 +6,7 @@
         </div>
         <div class="leading-5 text-gray-500 dark:text-gray-400">{{ props.subtitle }}</div>
 
-        <div class="mt-1">
+        <div class="mt-1 whitespace-pre-wrap">
             <slot></slot>
         </div>
     </div>
