@@ -20,20 +20,6 @@
             <!-- <p>Bootstrap Tailwind</p> -->
         </ActivityParagraph>
 
-        <ActivityParagraph :title="t('devops')">
-            <ul class="flex flex-wrap items-center">
-                <li><ProgrammingLogo :logo="docker_logo" language="Docker" /></li>
-            </ul>
-            <ul class="flex flex-wrap items-center">
-                <li><ProgrammingLogo :logo="ansible_logo" language="Ansible" /></li>
-            </ul>
-            <ul class="flex flex-wrap items-center">
-                <li><ProgrammingLogo :logo="jenkins_logo" language="Jenkins" /></li>
-                <li><ProgrammingLogo :logo="gitlab_runners_logo" language="Gitlab Runner" /></li>
-                <li><ProgrammingLogo :logo="github_actions_logo" language="Github Actions" /></li>
-            </ul>
-        </ActivityParagraph>
-
         <ActivityParagraph :title="t('data analysis')">
             <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="python_logo" language="Python" /></li>
@@ -60,6 +46,20 @@
             <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="database_logo" language="SQL" needInvert /></li>
                 <li><ProgrammingLogo :logo="mongo_logo" language="MongoDB" /></li>
+            </ul>
+        </ActivityParagraph>
+        
+        <ActivityParagraph :title="t('devops')">
+            <ul class="flex flex-wrap items-center">
+                <li><ProgrammingLogo :logo="docker_logo" language="Docker" /></li>
+            </ul>
+            <ul class="flex flex-wrap items-center">
+                <li><ProgrammingLogo :logo="ansible_logo" language="Ansible" /></li>
+            </ul>
+            <ul class="flex flex-wrap items-center">
+                <li><ProgrammingLogo :logo="jenkins_logo" language="Jenkins" /></li>
+                <li><ProgrammingLogo :logo="gitlab_runners_logo" language="Gitlab Runner" /></li>
+                <li><ProgrammingLogo :logo="github_actions_logo" language="Github Actions" /></li>
             </ul>
         </ActivityParagraph>
 
