@@ -36,8 +36,16 @@
 
         <ActivityParagraph :title="t('data analysis')">
             <ul class="flex flex-wrap items-center">
+                <li><ProgrammingLogo :logo="python_logo" language="Python" /></li>
+            </ul>
+
+            <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="numpy_logo" language="Numpy" /></li>
                 <li><ProgrammingLogo :logo="pandas_logo" language="Pandas" /></li>
+            </ul>
+            <ul class="flex flex-wrap items-center">
+                <li><ProgrammingLogo :logo="matplotlib_logo" language="Matplotlib" /></li>
+                <li><ProgrammingLogo :logo="seaborn_logo" language="Seaborn" /></li>
             </ul>
             <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="scikitlearn_logo" language="Scikit-learn" /></li>
@@ -55,12 +63,11 @@
             </ul>
         </ActivityParagraph>
 
-        <ActivityParagraph :title="t('programming languages')">
+        <ActivityParagraph :title="t('other programming languages')">
             <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="c_logo" language="C" /></li>
                 <li><ProgrammingLogo :logo="cpp_logo" language="C++" /></li>
                 <li><ProgrammingLogo :logo="java_logo" language="Java" /></li>
-                <li><ProgrammingLogo :logo="python_logo" language="Python" /></li>
                 <li><ProgrammingLogo :logo="cpu_logo" language="Assembly x86" needInvert /></li>
             </ul>
         </ActivityParagraph>
@@ -72,7 +79,7 @@
     import { useI18n } from "vue-i18n";
     import ActivityParagraph from "../components/ActivityParagraph.vue";
     import ProgrammingLogo from "../components/ProgrammingLogo.vue";
-    import locale from "../locale.json";
+    import locale from "../locale.js";
 
     import nodejs_logo from "@/assets/icons/nodejs.svg";
     import php_logo from "@/assets/icons/php.svg";
@@ -91,6 +98,8 @@
 
     import numpy_logo from "@/assets/icons/numpy.svg";
     import pandas_logo from "@/assets/icons/pandas.svg";
+    import matplotlib_logo from "@/assets/icons/matplotlib.svg";
+    import seaborn_logo from "@/assets/icons/seaborn.svg";
     import scikitlearn_logo from "@/assets/icons/scikitlearn.svg";
     import tensorflow_logo from "@/assets/icons/tensorflow.svg";
     import keras_logo from "@/assets/icons/keras.svg";
@@ -104,5 +113,6 @@
     import python_logo from "@/assets/icons/python.svg";
     import cpu_logo from "@/assets/icons/cpu.svg";
 
+    // @ts-ignore
     const { t } = useI18n({ messages: locale });
 </script>
