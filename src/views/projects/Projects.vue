@@ -6,9 +6,13 @@
         <h2 class="text-3xl text-center mt-10 mb-3">{{ t("wip") }}</h2>
 
         <Wirefilter />
+        <NotXiaGithubio />
+
 
         <h2 class="text-3xl text-center mt-10 mb-3">{{ t("completed") }}</h2>
 
+        <TweetAnalysis />
+        <AnimalHouse />
         <PandOSplus />
         <Imaging />
         <MNKGame />
@@ -28,6 +32,9 @@
     import Imaging from "./cards/Imaging.vue";
     import Platform from "./cards/Platform.vue";
     import PandOSplus from "./cards/PandOSplus.vue";
+    import NotXiaGithubio from "./cards/NotXiaGithubio.vue";
+    import AnimalHouse from "./cards/AnimalHouse.vue";
+    import TweetAnalysis from "./cards/TweetAnalysis.vue";
     import { useI18n } from "vue-i18n";
     import locale from "./locale.json";
 
