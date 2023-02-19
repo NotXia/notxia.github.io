@@ -6,6 +6,7 @@ export default ({
         "skills": "Skills",
         "other": "Other activities",
         "link to certificate": "Link to certificate",
+        "future": "What will happen?",
 
         "january": "January", "february": "February", "march": "March", "april": "April", "may": "May", "june": "June", 
         "july": "July", "august": "August", "september": "September", "october": "October", "november": "November", "december": "December",
@@ -48,6 +49,7 @@ export default ({
         "skills": "Competenze",
         "other": "Altre attività",
         "link to certificate": "Link al certificato",
+        "future": "Chissà cosa succederà",
 
         "january": "Gennaio", "february": "Febbraio", "march": "Marzo", "april": "Aprile", "may": "Maggio", "june": "Giugno", 
         "july": "Luglio", "august": "Agosto", "september": "Settembre", "october": "Ottobre", "november": "Novembre", "december": "Dicembre",

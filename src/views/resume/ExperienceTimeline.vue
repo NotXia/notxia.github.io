@@ -1,5 +1,14 @@
 <template>
-    <div class="flex h-full justify-center">
+    <div class="flex h-full justify-center relative">
+        <div class="absolute top-0 left-0 w-full">
+            <div data-tooltip-target="tooltip-future" class="relative w-6 h-2 mx-auto z-50">
+            </div>
+            <div id="tooltip-future" role="tooltip" 
+                 class="absolute z-10 invisible inline-block px-2 py-1 text-xs font-medium transition-opacity duration-1000 rounded-lg opacity-0 tooltip">
+                {{ t("future") }}
+            </div>
+        </div>
+
         <div class="w-full timeline-height">
             <Timeline 
                 :right="[
@@ -16,7 +25,7 @@
                 ]"
                 :left="[
                     { 
-                        title: t('it/is pcto toyota'), time_label: `${t('m_12')} 2019 | ${t('m_7')} 2019 | ${t('m_2')} 2019`,
+                        title: t('pcto toyota'), time_label: `${t('m_12')} 2019 | ${t('m_7')} 2019 | ${t('m_2')} 2019`,
                         description: 'Toyota Material Handling Manufacturing Italy',
                         start: new Date(2019, february, 1), end: new Date(2019, december, 1)
                     },
@@ -41,6 +50,8 @@
     import Timeline from "@/components/timeline/Timeline.vue";
     import { useI18n } from "vue-i18n";
     import locale from "./locale.js";
+    import { initTooltips } from "flowbite";
+    import { onMounted } from "vue";
 
     const timeline_locale = locale;
     // @ts-ignore
@@ -52,8 +63,12 @@
     const { t } = useI18n({ messages: timeline_locale});
 
     const january = 0, february = 1, march = 2, april = 3, may = 4, june = 5, july = 6, august = 7, september = 8, october = 9, november = 10, december = 11;
-</script>
 
+    onMounted(() => {
+        initTooltips();
+    })
+</script>
+ 
 <style scoped>
     /* Extra small devices */
     @media only screen and (max-width: 600px) {
