@@ -5,16 +5,14 @@
             <canvas ref="canvas_cookie" :width="canvas_width" :height="canvas_height"></canvas>
         </div>
         
-        <div ref="banner" class="fixed bottom-0 left-0 z-50">
-            <div class="border bg-slate-200/90 border-slate-700 dark:bg-slate-800/90 dark:border-slate-400 rounded w-fit lg:w-1/2 p-5 m-5">
-                <p class="text-sm">{{ t("cookie policy title") }}</p>
-                <div class="text-xs">
-                    <span>{{ t("cookie policy") }} <button :onclick="throwCookie" class="underline">{{ t("cookie policy link") }}</button></span>
-                </div>
-                <div class="flex justify-end mt-2 text-sm">
-                    <button :onclick="refuseCookieBanner" class="mx-1 hover:text-slate-500 dark:hover:text-slate-300">{{ t("reject") }}</button>
-                    <button :onclick="acceptCookieBanner" class="rounded p-2 mx-1 bg-slate-300 hover:bg-slate-400 dark:bg-slate-700 dark:hover:bg-slate-600">{{ t("accept") }}</button>
-                </div>
+        <div ref="banner" class="fixed bottom-0 left-0 z-50 border bg-slate-200/90 border-slate-700 dark:bg-slate-800/90 dark:border-slate-400 rounded w-fit lg:w-1/2 p-5 m-5">
+            <p class="text-sm">{{ t("cookie policy title") }}</p>
+            <div class="text-xs">
+                <span>{{ t("cookie policy") }} <button :onclick="throwCookie" class="underline">{{ t("cookie policy link") }}</button></span>
+            </div>
+            <div class="flex justify-end mt-2 text-sm">
+                <button :onclick="refuseCookieBanner" class="mx-1 hover:text-slate-500 dark:hover:text-slate-300">{{ t("reject") }}</button>
+                <button :onclick="acceptCookieBanner" class="rounded p-2 mx-1 bg-slate-300 hover:bg-slate-400 dark:bg-slate-700 dark:hover:bg-slate-600">{{ t("accept") }}</button>
             </div>
         </div>
 
@@ -29,6 +27,7 @@
     import { randomInt, random } from "@/utilities/random";
     import { shouldShowCookie, acceptCookie, refuseCookie } from "@/utilities/cookie_handler";
     import { useI18n } from "vue-i18n";
+    import { addFoundEasterEgg } from "@/utilities/easteregg_handler";
 
     const { t } = useI18n({ messages: {
         "en": {
@@ -118,6 +117,7 @@
     }
 
     function throwCookie() {
+        addFoundEasterEgg("cookie");
         if (!engine) { return; }
 
         // Creates a cookie at the bottom of visible screen
