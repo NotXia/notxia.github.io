@@ -11,16 +11,25 @@
         </div>
 
         <Cookie />
+        <EastereggBanner ref="easteregg" />
     </div>
 </template>
 
 <script setup lang="ts">
-    import { onMounted } from "vue";
+    import { onMounted, ref } from "vue";
     import { RouterView } from "vue-router";
     import { applyTheme } from "./utilities/theme_handler";
     import Cookie from "@/components/cookie/Cookie.vue";
-    
+    import EastereggBanner from "@/components/easteregg-banner/EastereggBanner.vue";
+
+    const easteregg = ref();
+
     onMounted(() => {
         applyTheme();
+
+        document.addEventListener("easteregg", (e) => {
+            // @ts-ignore
+            easteregg.value.show(e.detail);
+        });
     })
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div class="flex h-full justify-center relative">
         <div class="absolute top-0 left-0 w-full">
-            <div data-tooltip-target="tooltip-future" class="relative w-6 h-2 mx-auto z-50">
+            <div data-tooltip-target="tooltip-future" class="relative w-6 h-2 mx-auto z-50" @mouseover="() => addFoundEasterEgg('future')">
             </div>
             <div id="tooltip-future" role="tooltip" 
                  class="absolute z-10 invisible inline-block px-2 py-1 text-xs font-medium transition-opacity duration-1000 rounded-lg opacity-0 tooltip">
@@ -52,6 +52,7 @@
     import locale from "./locale.js";
     import { initTooltips } from "flowbite";
     import { onMounted } from "vue";
+    import { addFoundEasterEgg } from "@/utilities/easteregg_handler";
 
     const timeline_locale = locale;
     // @ts-ignore
