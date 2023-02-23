@@ -18,7 +18,7 @@
                 </button>
             </div>
 
-            <div class="flex items-center order-1 md:w-1/2">
+            <div class="flex items-center order-1 md:w-full">
                 <div class="hidden w-full md:block md:w-auto" id="navbar-main">
                     <ul class="flex flex-col py-4 pr-4 mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium bg-transparent">
                         <NavLink to="/" :label="t('home')"/>

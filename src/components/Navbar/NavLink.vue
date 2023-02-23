@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-    import { ref, watch } from "vue";
+    import { ref } from "vue";
     import { useRoute } from "vue-router";
     const route = useRoute();
 
@@ -19,7 +19,4 @@
     })
 
     const is_active_page = ref(route.path === props.to);
-    watch(() => route.path, () => {
-        is_active_page.value = route.path === props.to
-    });
 </script>
