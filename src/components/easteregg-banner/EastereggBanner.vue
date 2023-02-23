@@ -10,6 +10,7 @@
                 <div class="flex-1">
                     <CookieEgg v-if="easteregg === 'cookie'" />
                     <FutureEgg v-if="easteregg === 'future'" />
+                    <SomethingEgg v-if="easteregg === 'change-something'" />
                     
                     <div class="mt-1 text-center">
                         <p v-if="found_eastereggs != total_eastereggs">{{ found_eastereggs }}/{{ total_eastereggs }} {{ t("easter eggs found") }}</p>
@@ -29,6 +30,7 @@
     import { getFoundEasterEggsCount, getTotalEasterEggsCount } from "@/utilities/easteregg_handler";
     import CookieEgg from "./eggs/Cookie.vue";
     import FutureEgg from "./eggs/Future.vue";
+    import SomethingEgg from "./eggs/Something.vue";
 
     const show_banner = ref(false);
     const easteregg = ref("");
