@@ -1,5 +1,5 @@
 <template>
-    <div class="border rounded-md p-3 mx-auto w-full lg:w-2/3 xl:w-1/2">
+    <div class="border border-gray-500 dark:border-gray-300 rounded-md p-3 mx-auto w-full lg:w-2/3 xl:w-1/2">
         <h3 class="text-2xl font-semibold text-center text-gray-900 dark:text-white">{{ props.title }}</h3>
         <div class="text-center mb-2">
             <a v-for="link in props.links" :href="link.url" class="font-mono inline-block hover:underline mx-2">{{ link.label }}</a>
