@@ -3,7 +3,7 @@
         <div class="flex justify-center w-full h-full" v-if="month_offset > 0 && min_date && max_date">
             
             <!-- Left side -->
-            <ol class="relative border-r text-right w-1/2 border-zinc-200 dark:border-zinc-700">                  
+            <ol class="relative border-r text-right w-1/2 border-zinc-300 dark:border-zinc-700">                  
                 <li class="mr-4 absolute right-0" v-for="event in left_events" :key="props.left[event.index].title" :style="`top: ${event.offset*month_offset}px`">
                     <div class="relative">
                         <!-- Start point -->
@@ -29,7 +29,7 @@
             <div class="w-4"></div>
 
             <!-- Right side -->
-            <ol class="relative w-1/2 border-l border-zinc-200 dark:border-zinc-700">                  
+            <ol class="relative w-1/2 border-l border-zinc-300 dark:border-zinc-700">                  
                 <li class="ml-4 absolute left-0" v-for="event in right_events" :key="props.right[event.index].title" :style="`top: ${event.offset*month_offset}px`">
                     <div class="relative">
                         <!-- Start point -->
@@ -90,7 +90,7 @@
     }
 
     function updateTimelineSize():void {
-        const available_space:number = container_timeline.value.clientHeight ?? 0;
+        const available_space:number = container_timeline.value?.clientHeight ?? 0;
         let events_min_date:Date = new Date(), 
             events_max_date:Date = new Date(0);
 
