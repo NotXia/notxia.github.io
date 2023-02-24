@@ -1,9 +1,9 @@
 <template>
-    <div class="fixed top-0 left-0 w-full pointer-events-none">
+    <div v-if="show_banner" class="fixed top-0 left-0 w-full pointer-events-none z-50">
 
-        <div :class="`border rounded-sm p-3 px-5 my-2 mx-auto w-fit max-w-xs md:max-w-md pointer-events-auto 
+        <div :class="`border rounded-sm mx-auto w-fit max-w-xs md:max-w-md pointer-events-auto
                     bg-slate-200/90 border-slate-700 dark:bg-slate-800/90 dark:border-slate-400
-                      transition-opacity ${show_banner ? 'opacity-100 duration-300' : 'opacity-0 duration-200'}`"
+                      transition-opacity ${show_banner ? 'opacity-100 duration-300 p-3 px-5 my-2' : 'opacity-0 duration-200'}`"
             @click="dismiss">
             
             <div class="flex text-sm">
@@ -50,13 +50,16 @@
     } });
 
 
+    let current_dismiss_timeout:number|null = null;
+
     function show(easteregg_name:string) {
         easteregg.value = easteregg_name;
         found_eastereggs.value = getFoundEasterEggsCount();
         console.log(getFoundEasterEggsCount())
         show_banner.value = true;
-
-        setTimeout(() => {
+        
+        if (current_dismiss_timeout) { clearTimeout(current_dismiss_timeout) }
+        current_dismiss_timeout = setTimeout(() => {
             dismiss();
         }, 8000);
     }
