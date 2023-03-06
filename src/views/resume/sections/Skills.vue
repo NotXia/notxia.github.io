@@ -35,14 +35,12 @@
             </ul>
             <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="scikitlearn_logo" language="Scikit-learn" /></li>
-            </ul>
-            <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="tensorflow_logo" language="Tensorflow" /></li>
                 <li><ProgrammingLogo :logo="keras_logo" language="Keras" /></li>
             </ul>
-            <ul class="flex flex-wrap items-center">
+            <!-- <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="knime_logo" language="KNIME" /></li>
-            </ul>
+            </ul> -->
             <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="database_logo" language="SQL" needInvert /></li>
                 <li><ProgrammingLogo :logo="mongo_logo" language="MongoDB" /></li>
