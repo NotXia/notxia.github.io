@@ -65,7 +65,7 @@
         if (current_dismiss_timeout) { clearTimeout(current_dismiss_timeout) }
         current_dismiss_timeout = setTimeout(() => {
             dismiss();
-        }, 8000);
+        }, 7000);
     }
 
     function dismiss() {
