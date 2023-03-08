@@ -11,6 +11,8 @@
                     <CookieEgg v-if="easteregg === 'cookie'" />
                     <FutureEgg v-if="easteregg === 'future'" />
                     <SomethingEgg v-if="easteregg === 'change-something'" />
+                    <PictureBrightEgg v-if="easteregg === 'picture-bright'" />
+                    <PictureNoLightEgg v-if="easteregg === 'picture-nolights'" />
                     
                     <div class="mt-1 text-center">
                         <p v-if="found_eastereggs != total_eastereggs">{{ found_eastereggs }}/{{ total_eastereggs }} {{ t("easter eggs found") }}</p>
@@ -31,6 +33,8 @@
     import CookieEgg from "./eggs/Cookie.vue";
     import FutureEgg from "./eggs/Future.vue";
     import SomethingEgg from "./eggs/Something.vue";
+    import PictureBrightEgg from "./eggs/PictureBright.vue";
+    import PictureNoLightEgg from "./eggs/PictureNoLight.vue";
 
     const show_banner = ref(false);
     const easteregg = ref("");
@@ -41,7 +45,7 @@
     const { t } = useI18n({ messages: {
         "en": {
             "easter eggs found": "easter eggs found",
-            "all easter eggs found": "You found all the easter eggs 🥚"
+            "all easter eggs found": "You found all easter eggs 🥚"
         },
         "it": {
             "easter eggs found": "easter egg trovati",
