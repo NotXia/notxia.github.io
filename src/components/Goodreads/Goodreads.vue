@@ -48,14 +48,6 @@
         border-radius: 0.2rem;
         border: 1px solid #424242;
     }
-    .gr_grid_book_container:first-child {
-        margin-left: 0;
-        margin-right: 0.5rem;
-    }
-    .gr_grid_book_container:last-child {
-        margin-left: 0.5rem;
-        margin-right: 0;
-    }
 
     .gr_grid_book_container > * img {
         height: 100%;
