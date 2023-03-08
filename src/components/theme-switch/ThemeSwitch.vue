@@ -16,8 +16,8 @@
     import { getTheme, flipTheme, applyTheme } from "@/utilities/theme_handler";
     import { ref } from "vue";
 
-    import moon_icon from "@/assets/icons/moon.svg";
-    import sun_icon from "@/assets/icons/sun.svg";
+    import moon_icon from "@/assets/images/icons/moon.svg";
+    import sun_icon from "@/assets/images/icons/sun.svg";
 
     const current_theme = ref(getTheme());
 

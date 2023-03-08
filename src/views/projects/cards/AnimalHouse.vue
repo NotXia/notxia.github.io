@@ -15,7 +15,7 @@
 <script setup lang="ts">
     import ProjectCard from "../ProjectCard.vue";
     import { useI18n } from "vue-i18n";
-    import image from "@/assets/projects/animal-house.png";
+    import image from "@/assets/images/projects/animal-house.png";
 
     const { t } = useI18n({ messages: {
         en: {

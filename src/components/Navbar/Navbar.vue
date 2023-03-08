@@ -44,7 +44,7 @@
     import locale from "./locale.json";
     import { onMounted } from "vue";
 
-    import github_icon from "@/assets/icons/github.svg";
+    import github_icon from "@/assets/images/icons/github.svg";
 
     const { t } = useI18n({ messages: locale });
 
