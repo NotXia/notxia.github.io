@@ -79,37 +79,37 @@
     import ProgrammingLogo from "../components/ProgrammingLogo.vue";
     import locale from "../locale.js";
 
-    import nodejs_logo from "@/assets/icons/nodejs.svg";
-    import php_logo from "@/assets/icons/php.svg";
-    import nginx_logo from "@/assets/icons/nginx.svg";
-    import html_logo from "@/assets/icons/html.svg";
-    import css_logo from "@/assets/icons/css.svg";
-    import js_logo from "@/assets/icons/js.svg";
-    import react_logo from "@/assets/icons/react.svg";
-    import vue_logo from "@/assets/icons/vue.svg";
+    import nodejs_logo from "@/assets/images/icons/nodejs.svg";
+    import php_logo from "@/assets/images/icons/php.svg";
+    import nginx_logo from "@/assets/images/icons/nginx.svg";
+    import html_logo from "@/assets/images/icons/html.svg";
+    import css_logo from "@/assets/images/icons/css.svg";
+    import js_logo from "@/assets/images/icons/js.svg";
+    import react_logo from "@/assets/images/icons/react.svg";
+    import vue_logo from "@/assets/images/icons/vue.svg";
 
-    import docker_logo from "@/assets/icons/docker.svg";
-    import ansible_logo from "@/assets/icons/ansible.svg";
-    import jenkins_logo from "@/assets/icons/jenkins.svg";
-    import gitlab_runners_logo from "@/assets/icons/gitlab.svg";
-    import github_actions_logo from "@/assets/icons/github-actions.svg";
+    import docker_logo from "@/assets/images/icons/docker.svg";
+    import ansible_logo from "@/assets/images/icons/ansible.svg";
+    import jenkins_logo from "@/assets/images/icons/jenkins.svg";
+    import gitlab_runners_logo from "@/assets/images/icons/gitlab.svg";
+    import github_actions_logo from "@/assets/images/icons/github-actions.svg";
 
-    import numpy_logo from "@/assets/icons/numpy.svg";
-    import pandas_logo from "@/assets/icons/pandas.svg";
-    import matplotlib_logo from "@/assets/icons/matplotlib.svg";
-    import seaborn_logo from "@/assets/icons/seaborn.svg";
-    import scikitlearn_logo from "@/assets/icons/scikitlearn.svg";
-    import tensorflow_logo from "@/assets/icons/tensorflow.svg";
-    import keras_logo from "@/assets/icons/keras.svg";
-    import knime_logo from "@/assets/icons/knime.svg";
-    import database_logo from "@/assets/icons/database.svg";
-    import mongo_logo from "@/assets/icons/mongo.svg";
+    import numpy_logo from "@/assets/images/icons/numpy.svg";
+    import pandas_logo from "@/assets/images/icons/pandas.svg";
+    import matplotlib_logo from "@/assets/images/icons/matplotlib.svg";
+    import seaborn_logo from "@/assets/images/icons/seaborn.svg";
+    import scikitlearn_logo from "@/assets/images/icons/scikitlearn.svg";
+    import tensorflow_logo from "@/assets/images/icons/tensorflow.svg";
+    import keras_logo from "@/assets/images/icons/keras.svg";
+    import knime_logo from "@/assets/images/icons/knime.svg";
+    import database_logo from "@/assets/images/icons/database.svg";
+    import mongo_logo from "@/assets/images/icons/mongo.svg";
     
-    import c_logo from "@/assets/icons/c.svg";
-    import cpp_logo from "@/assets/icons/cpp.svg";
-    import java_logo from "@/assets/icons/java.svg";
-    import python_logo from "@/assets/icons/python.svg";
-    import cpu_logo from "@/assets/icons/cpu.svg";
+    import c_logo from "@/assets/images/icons/c.svg";
+    import cpp_logo from "@/assets/images/icons/cpp.svg";
+    import java_logo from "@/assets/images/icons/java.svg";
+    import python_logo from "@/assets/images/icons/python.svg";
+    import cpu_logo from "@/assets/images/icons/cpu.svg";
 
     // @ts-ignore
     const { t } = useI18n({ messages: locale });

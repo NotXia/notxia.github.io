@@ -27,10 +27,10 @@
     import locale from "./locale.json";
     import ContactLink from "./ContactLink.vue";
 
-    import mail_icon from "@/assets/icons/mail.svg";
-    import telegram_icon from "@/assets/icons/telegram.svg";
-    import linkedin_icon from "@/assets/icons/linkedin.svg";
-    import discord_icon from "@/assets/icons/discord.svg";
+    import mail_icon from "@/assets/images/icons/mail.svg";
+    import telegram_icon from "@/assets/images/icons/telegram.svg";
+    import linkedin_icon from "@/assets/images/icons/linkedin.svg";
+    import discord_icon from "@/assets/images/icons/discord.svg";
 
     const { t } = useI18n({ messages: locale });
 </script>

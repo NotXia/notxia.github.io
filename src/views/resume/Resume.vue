@@ -45,7 +45,7 @@
     import Other from "./sections/Other.vue";
     import { useI18n } from "vue-i18n";
 
-    import pdf_image from "@/assets/icons/pdf.svg";
+    import pdf_image from "@/assets/images/icons/pdf.svg";
     import cv_it from "@/assets/cv/it.pdf";
     import cv_en from "@/assets/cv/en.pdf";
     import cv_it_color from "@/assets/cv/it_color.pdf";

@@ -29,7 +29,7 @@
     import { setLocale } from "@/utilities/locale_handler";
     import { onMounted } from "vue";
 
-    import globe_icon from "@/assets/icons/globe.svg";
+    import globe_icon from "@/assets/images/icons/globe.svg";
 
     onMounted(() => {
         initDropdowns();
