@@ -3,7 +3,7 @@
     <div class="flex text-sm">
         <div class="flex items-center justify-center">
             <div class="w-10 h-10 flex items-center justify-center overflow-hidden">
-                <img :src="image" alt="" class="h-full w-full" />
+                <img :src="image" alt="" class="h-full w-full dark:invert" />
             </div>
         </div>
 
@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
     import { useI18n } from "vue-i18n";
-    import image from "@/assets/images/sad.png";
+    import image from "@/assets/images/sad.svg";
 
     const { t } = useI18n({ messages: {
         "en": {

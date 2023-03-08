@@ -1,7 +1,7 @@
 <template>
     <div class="flex h-full justify-center relative">
         <div class="absolute top-0 left-0 w-full">
-            <div data-tooltip-target="tooltip-future" class="relative w-6 h-2 mx-auto z-50" @mouseover="() => addFoundEasterEgg('future')">
+            <div data-tooltip-target="tooltip-future" class="relative w-6 h-2 mx-auto z-50" @mouseover="startArchievementTimer" @mouseleave="stopAchievementTimer">
             </div>
             <div id="tooltip-future" role="tooltip" 
                  class="absolute z-10 invisible inline-block px-2 py-1 text-xs font-medium transition-opacity duration-1000 rounded-lg opacity-0 tooltip">
@@ -49,7 +49,7 @@
 <script setup lang="ts">
     import Timeline from "@/components/timeline/Timeline.vue";
     import { useI18n } from "vue-i18n";
-    import locale from "./locale.js";
+    import locale from "../locale.js";
     import { initTooltips } from "flowbite";
     import { onMounted } from "vue";
     import { addFoundEasterEgg } from "@/utilities/easteregg_handler";
@@ -67,7 +67,23 @@
 
     onMounted(() => {
         initTooltips();
-    })
+    });
+
+
+    let achievement_timer:number|null = null;
+    
+    function startArchievementTimer() {
+        achievement_timer = setTimeout(() => { 
+            addFoundEasterEgg('future');
+            achievement_timer = null;
+        }, 500);
+    }
+    
+    function stopAchievementTimer() {
+        if (achievement_timer) {
+            clearTimeout(achievement_timer);
+        }
+    }
 </script>
  
 <style scoped>
