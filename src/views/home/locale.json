@@ -1,8 +1,12 @@
 {
     "en": {
-        "hello": "Hello"
+        "i am a": "I'm a",
+        "cs student": "Computer Science Student",
+        "a very accurate description of me": "Sometimes a bit distracted"
     },
     "it": {
-        "hello": "Ciao"
+        "i am a": "Sono uno",
+        "cs student": "Studente di Informatica",
+        "a very accurate description of me": "A volte un po' distratto"
     }
 }
