@@ -20,7 +20,7 @@
     const { t } = useI18n({ messages: {
         en: {
             description:
-                "Visualizer for some graph search algorithms."
+                "Visualizer of some graph search algorithms."
         },
         it: {
             description:

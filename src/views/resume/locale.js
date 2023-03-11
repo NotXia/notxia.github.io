@@ -33,7 +33,7 @@ export default ({
         "pcto toyota": "IT/IS Office, Internship",
         "pcto toyota description": "Internship organized during high school.\n" +
                                    "IT support, maintenance and initial setup of network devices.\n" +
-                                   "SQL programming, automations with bash and batch scripts.",
+                                   "SQL programming, automation with bash and batch scripts.",
 
         "ois": "Informatics Olympiad in Teams",
         "ois description": "Team based programming competition.",
@@ -80,7 +80,7 @@ export default ({
 
 
         "ois": "Olimpiadi di informatica a squadre",
-        "ois description": "Competizione di programmazione a squadre.",
+        "ois description": "Programmazione competitiva a squadre.",
 
         "MAST foundation": "Fondazione MAST",
         "MAST expeditions description": "Progettazione e realizzazione di una scatola IOT attraverso l'utilizzo di schede programmabili Flip & Click e " + 

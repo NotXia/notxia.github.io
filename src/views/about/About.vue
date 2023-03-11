@@ -22,7 +22,7 @@
                         e giocare a giochi strategici.
                     </p>
                     <p>
-                        Secondo <a class="hover:underline" href="https://www.16personalities.com">16Personalities</a> sono un 
+                        Secondo <a class="hover:underline italic" href="https://www.16personalities.com">16Personalities</a> sono un 
                         <a class="font-mono hover:underline" href="https://www.16personalities.com/profiles/6b57f54bf1242">Architetto (INTJ)</a>. 
                         Devo dire che la descrizione è decisamente accurata.
                     </p>
@@ -42,9 +42,9 @@
                         and playing strategic games.
                     </p>
                     <p>
-                        According to <a class="hover:underline" href="https://www.16personalities.com">16Personalities</a> I'm an 
+                        According to <a class="hover:underline italic" href="https://www.16personalities.com">16Personalities</a> I'm an 
                         <a class="font-mono hover:underline" href="https://www.16personalities.com/profiles/6b57f54bf1242">Architect (INTJ)</a>. 
-                        I must admit that the description is quiet accurate.
+                        I must admit that the description is quite accurate.
                     </p>
                 </div>
 

@@ -5,7 +5,8 @@
             <canvas ref="canvas_cookie" :width="canvas_width" :height="canvas_height"></canvas>
         </div>
         
-        <div ref="banner" class="fixed bottom-0 left-0 z-50 border bg-slate-200/90 border-slate-700 dark:bg-slate-800/90 dark:border-slate-400 rounded w-fit lg:w-1/2 p-5 m-5">
+        <div ref="banner" class="fixed bottom-0 left-0 z-50 bg-slate-200/90 border-slate-700 dark:bg-slate-800/90 dark:border-slate-400 
+                                 border rounded w-fit lg:w-1/2 p-3 px-5 m-5">
             <p class="text-sm">{{ t("cookie policy title") }}</p>
             <div class="text-xs">
                 <span>{{ t("cookie policy") }} <button :onclick="throwCookie" class="underline">{{ t("cookie policy link") }}</button></span>

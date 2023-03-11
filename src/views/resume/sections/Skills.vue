@@ -2,27 +2,11 @@
     <div class="[&_li]:mr-4">
         <h2 class="text-4xl font-bold tracking-wide">{{ t("skills") }}</h2>
 
-        <ActivityParagraph :title="t('web development')">
-            <ul class="flex flex-wrap items-center">
-                <li><ProgrammingLogo :logo="nodejs_logo" language="NodeJS" /></li>
-                <li><ProgrammingLogo :logo="php_logo" language="PHP" /></li>
-                <li><ProgrammingLogo :logo="nginx_logo" language="Nginx" /></li>
-            </ul>
-            <ul class="flex flex-wrap items-center">
-                <li><ProgrammingLogo :logo="react_logo" language="React" /></li>
-                <li><ProgrammingLogo :logo="vue_logo" language="Vue" /></li>
-            </ul>
-            <!-- <ul class="flex flex-wrap items-center">
-                <li><ProgrammingLogo :logo="html_logo" language="HTML" /></li>
-                <li><ProgrammingLogo :logo="css_logo" language="CSS" /></li>
-                <li><ProgrammingLogo :logo="js_logo" language="Javascript" /></li>
-            </ul> -->
-            <!-- <p>Bootstrap Tailwind</p> -->
-        </ActivityParagraph>
-
         <ActivityParagraph :title="t('data analysis')">
             <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="python_logo" language="Python" /></li>
+                <li><ProgrammingLogo :logo="database_logo" language="SQL" needInvert /></li>
+                <li><ProgrammingLogo :logo="mongo_logo" language="MongoDB" /></li>
             </ul>
 
             <ul class="flex flex-wrap items-center">
@@ -41,10 +25,6 @@
             <!-- <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="knime_logo" language="KNIME" /></li>
             </ul> -->
-            <ul class="flex flex-wrap items-center">
-                <li><ProgrammingLogo :logo="database_logo" language="SQL" needInvert /></li>
-                <li><ProgrammingLogo :logo="mongo_logo" language="MongoDB" /></li>
-            </ul>
         </ActivityParagraph>
         
         <ActivityParagraph :title="t('devops')">
@@ -59,6 +39,24 @@
                 <li><ProgrammingLogo :logo="gitlab_runners_logo" language="Gitlab Runner" /></li>
                 <li><ProgrammingLogo :logo="github_actions_logo" language="Github Actions" /></li>
             </ul>
+        </ActivityParagraph>
+        
+        <ActivityParagraph :title="t('web development')">
+            <ul class="flex flex-wrap items-center">
+                <li><ProgrammingLogo :logo="nodejs_logo" language="NodeJS" /></li>
+                <li><ProgrammingLogo :logo="php_logo" language="PHP" /></li>
+                <!-- <li><ProgrammingLogo :logo="nginx_logo" language="Nginx" /></li> -->
+            </ul>
+            <ul class="flex flex-wrap items-center">
+                <li><ProgrammingLogo :logo="react_logo" language="React" /></li>
+                <li><ProgrammingLogo :logo="vue_logo" language="Vue" /></li>
+            </ul>
+            <!-- <ul class="flex flex-wrap items-center">
+                <li><ProgrammingLogo :logo="html_logo" language="HTML" /></li>
+                <li><ProgrammingLogo :logo="css_logo" language="CSS" /></li>
+                <li><ProgrammingLogo :logo="js_logo" language="Javascript" /></li>
+            </ul> -->
+            <!-- <p>Bootstrap Tailwind</p> -->
         </ActivityParagraph>
 
         <ActivityParagraph :title="t('other programming languages')">

@@ -20,11 +20,11 @@
     const { t } = useI18n({ messages: {
         en: {
             description:
-                "Visualizer for some sorting algorithms."
+                "Visualizer of some sorting algorithms."
         },
         it: {
             description:
-                "Visualizzazione di algoritmi di ordinamento."
+                "Visualizzazione di alcuni algoritmi di ordinamento."
         }
     } });
 </script>
