@@ -22,7 +22,7 @@
     const { t } = useI18n({ messages: {
         "en": {
             "title": "What a wonderful future",
-            "description": "What will happen?"
+            "description": "What will happen next?"
         },
         "it": {
             "title": "Che bello il futuro",

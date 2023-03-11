@@ -37,7 +37,7 @@
 
 <script setup lang="ts">
     import Navbar from "@/components/navbar/Navbar.vue";
-    import ExperienceTimeline from "./components/ExperienceTimeline.vue";
+    import ExperienceTimeline from "./sections/ExperienceTimeline.vue";
     import Education from "./sections/Education.vue";
     import Certificates from "./sections/Certificates.vue";
     import Skills from "./sections/Skills.vue";

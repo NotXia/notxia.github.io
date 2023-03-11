@@ -5,7 +5,7 @@
 
     <ScreenCenter>
     <main>
-        <h1 class="text-5xl font-bold text-center">{{ t("contacts") }}</h1>
+        <!-- <h1 class="text-3xl md:text-5xl font-bold text-center mb-5">{{ t("contacts") }}</h1> -->
         
         <div class="md:flex justify-center">
             <div>

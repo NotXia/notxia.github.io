@@ -28,7 +28,7 @@
             unibo: "Università di Bologna, A.A. 2022-2023",
             description:
                 "Progetto per il corso di Ingegneria del Software.\n" +
-                "Webapp per l'analisi di tweet sviluppato con metodologia Scrum."
+                "Webapp per l'analisi di tweet sviluppata con metodologia Scrum."
         }
     } });
 </script>
