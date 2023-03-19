@@ -1,3 +1,8 @@
+import cv_it from "@/assets/cv/it.pdf";
+import cv_en from "@/assets/cv/en.pdf";
+import cv_it_color from "@/assets/cv/it_color.pdf";
+import cv_en_color from "@/assets/cv/en_color.pdf";
+
 export default ({
     "en": {
         "education": "Education",
@@ -7,6 +12,11 @@ export default ({
         "other": "Other activities",
         "link to certificate": "Link to certificate",
         "future": "What will happen?",
+        "like timelines": "I like timelines",
+
+        "cv_link": cv_en,
+        "cv_link_color": cv_en_color,
+        "with_colors": "but colored",
 
         "january": "January", "february": "February", "march": "March", "april": "April", "may": "May", "june": "June", 
         "july": "July", "august": "August", "september": "September", "october": "October", "november": "November", "december": "December",
@@ -25,15 +35,18 @@ export default ({
         "data analysis": "Data analysis",
         "other programming languages": "Other programming languages",
 
+
         "cisco it essentials description": "Maintenance and administration of IT systems.\n" +
                                            "Configuration and management of network devices.",
-        "cs50 ai description": "Problem solving through algorithms based on graphs, statistics, optimization and machine learning.",
+        
+                                           "cs50 ai description": "Problem solving through algorithms based on graphs, statistics, optimization and machine learning.",
 
 
         "pcto toyota": "IT/IS Office, Internship",
         "pcto toyota description": "Internship organized during high school.\n" +
                                    "IT support, maintenance and initial setup of network devices.\n" +
                                    "SQL programming, automation with bash and batch scripts.",
+
 
         "ois": "Informatics Olympiad in Teams",
         "ois description": "Team based programming competition.",
@@ -50,6 +63,11 @@ export default ({
         "other": "Altre attività",
         "link to certificate": "Link al certificato",
         "future": "Chissà cosa succederà",
+        "like timelines": "Mi piacciono le linee del tempo",
+
+        "cv_link": cv_it,
+        "cv_link_color": cv_it_color,
+        "with_colors": "ma colorato",
 
         "january": "Gennaio", "february": "Febbraio", "march": "Marzo", "april": "Aprile", "may": "Maggio", "june": "Giugno", 
         "july": "Luglio", "august": "Agosto", "september": "Settembre", "october": "Ottobre", "november": "Novembre", "december": "Dicembre",
@@ -68,8 +86,10 @@ export default ({
         "data analysis": "Data analysis",
         "other programming languages": "Altri linguaggi di programmazione",
 
+        
         "cisco it essentials description": "Manutenzione e amministrazione di sistemi informatici.\n" +
                                            "Configurazione e gestione di apparati di rete.",
+        
         "cs50 ai description": "Risoluzione di problemi con algoritmi basati su grafi, statistica, ottimizzazione e machine learning.",
 
 

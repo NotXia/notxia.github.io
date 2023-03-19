@@ -8,8 +8,8 @@
         </div>
 
         <div class="flex-1 ml-2">
-            <p class="font-bold text-base">{{ t("title") }}</p>
-            <p>{{ t("description") }}</p>
+            <p class="font-bold text-base">{{ t("future.title") }}</p>
+            <p>{{ t("future.description") }}</p>
         </div>
     </div>
     
@@ -18,15 +18,7 @@
 <script setup lang="ts">
     import { useI18n } from "vue-i18n";
     import image from "@/assets/images/future.png";
-
-    const { t } = useI18n({ messages: {
-        "en": {
-            "title": "What a wonderful future",
-            "description": "What will happen next?"
-        },
-        "it": {
-            "title": "Che bello il futuro",
-            "description": "Cosa ci riserverà?"
-        }
-    } });
+    import locale from "@/locales/easteregg";
+    
+    const { t } = useI18n({ messages: locale });
 </script>

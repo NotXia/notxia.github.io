@@ -25,21 +25,9 @@
     import picture_light from "@/assets/images/profile/picture-light.png";
     import picture_bright from "@/assets/images/profile/picture-bright.png";
     import picture_nolight from "@/assets/images/profile/picture-nolight.png";
+    import profile_locale from "@/locales/profile-picture";
 
-    const { t, locale } = useI18n({ messages: {
-        "en": {
-            "that's bright": "That's bright",
-            "better": "Better",
-            "where lights": "Who turned off the lights?",
-            "here lights": "Here they are"
-        },
-        "it": {
-            "that's bright": "È luminoso",
-            "better": "Meglio",
-            "where lights": "Chi ha spento le luci?",
-            "here lights": "Eccole"
-        }
-    } });
+    const { t, locale } = useI18n({ messages: profile_locale });
 
     const picture = ref(picture_dark);
     const message = ref("picture_dark");

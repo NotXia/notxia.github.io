@@ -23,27 +23,9 @@
     import EastereggBanner from "@/components/easteregg-banner/EastereggBanner.vue";
     import { useRoute } from 'vue-router'
     import { useI18n } from "vue-i18n";
+    import title_locale from "@/locales/title";
 
-    const { t, locale } = useI18n({ messages: {
-        "en": {
-            "title_home": "Hello",
-            "title_about": "About",
-            "title_projects": "Projects",
-            "title_resume": "Résumé",
-            "title_contacts": "Say hello",
-
-            "log_hello": "Hello 🐡"
-        },
-        "it": {
-            "title_home": "Ciao",
-            "title_about": "Chi sono",
-            "title_projects": "Progetti",
-            "title_resume": "CV",
-            "title_contacts": "Salutami",
-
-            "log_hello": "Ciao 🐡"
-        }
-    } });
+    const { t, locale } = useI18n({ messages: title_locale });
 
     const route = useRoute()
     const easteregg = ref();

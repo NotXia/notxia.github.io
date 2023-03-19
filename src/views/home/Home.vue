@@ -26,7 +26,7 @@
     import ScreenCenter from "@/components/screen-center/ScreenCenter.vue";
     import RandomSomething from "@/components/random-something/RandomSomething.vue";
     import { useI18n } from "vue-i18n";
-    import locale from "./locale.json";
+    import locale from "@/locales/home";
 
     const { t } = useI18n({ messages: locale });
 </script>

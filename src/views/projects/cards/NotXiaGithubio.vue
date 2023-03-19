@@ -5,7 +5,7 @@
             { label: 'Repository', url: 'https://github.com/NotXia/notxia.github.io' },
         ]">
         
-        <p v-if="!show_recursive_message">{{ t('description') }}</p>
+        <p v-if="!show_recursive_message">{{ t('notxia.github.io.description') }}</p>
 
         <div class="w-full h-72 relative">
             <div role="status" v-if="!iframe_loaded && !show_recursive_message" class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
@@ -29,6 +29,7 @@
     import ProjectCard from "../ProjectCard.vue";
     import { useI18n } from "vue-i18n";
     import { ref, onMounted } from "vue";
+    import locale from "@/locales/projects";
 
     const iframe_loaded = ref(false);
     const show_recursive_message = ref(false);
@@ -42,14 +43,5 @@
         catch (err) { show_recursive_message.value = false; }
     });
 
-    const { t } = useI18n({ messages: {
-        en: {
-            description: "Here's a secret preview of my website.",
-            "no recursion": "Recursion out of service, sorry for the inconvenience."
-        },
-        it: {
-            description: "Ecco un'anteprima segreta del mio sito.",
-            "no recursion": "Ricorsione fuori servizio, mi scuso per il disagio."
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 </script>

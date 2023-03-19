@@ -49,19 +49,12 @@
 <script setup lang="ts">
     import Timeline from "@/components/timeline/Timeline.vue";
     import { useI18n } from "vue-i18n";
-    import locale from "../locale.js";
     import { initTooltips } from "flowbite";
     import { onMounted } from "vue";
     import { addFoundEasterEgg } from "@/utilities/easteregg_handler";
+    import locale from "@/locales/resume";
 
-    const timeline_locale = locale;
-    // @ts-ignore
-    timeline_locale.en["like timelines"] = "I like timelines";
-    // @ts-ignore
-    timeline_locale.it["like timelines"] = "Mi piacciono le linee del tempo";
-
-    // @ts-ignore
-    const { t } = useI18n({ messages: timeline_locale});
+    const { t } = useI18n({ messages: locale });
 
     const january = 0, february = 1, march = 2, april = 3, may = 4, june = 5, july = 6, august = 7, september = 8, october = 9, november = 10, december = 11;
 

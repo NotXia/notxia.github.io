@@ -15,23 +15,9 @@
     import rock_image from "@/assets/images/rock.png";
     import coconut_image from "@/assets/images/coconut.png";
     import red_panda_image from "@/assets/images/red-panda.png";
+    import locale from "@/locales/something";
 
-    const { t } = useI18n({ messages: {
-        "en": {
-            "penguin": "This is a penguin",
-            "llama": "This is a llama",
-            "rock": "This is a rock",
-            "coconut": "This is a coconut",
-            "red panda": "This is a red panda"
-        },
-        "it": {
-            "penguin": "Questo è un pinguino",
-            "llama": "Questo è un lama",
-            "rock": "Questo è un sasso",
-            "coconut": "Questa è una noce di cocco",
-            "red panda": "Questo è un panda rosso"
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 
     const things = [
         { name: "penguin", image: penguin_image },

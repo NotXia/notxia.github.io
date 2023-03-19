@@ -41,7 +41,7 @@
     import LanguageSelector from "../language-selector/LanguageSelector.vue";
     import { initCollapses } from "flowbite";
     import { useI18n } from "vue-i18n";
-    import locale from "./locale.json";
+    import locale from "@/locales/navbar";
     import { onMounted } from "vue";
 
     import github_icon from "@/assets/images/icons/github.svg";

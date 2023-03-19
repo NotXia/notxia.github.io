@@ -15,8 +15,7 @@
 <script setup lang="ts">
     import { useI18n } from "vue-i18n";
     import ActivityParagraph from "../components/ActivityParagraph.vue";
-    import locale from "../locale.js";
+    import locale from "@/locales/resume";
 
-    // @ts-ignore
     const { t } = useI18n({ messages: locale });
 </script>

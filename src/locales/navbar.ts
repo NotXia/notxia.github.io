@@ -1,4 +1,4 @@
-{
+export default {
     "it": {
         "open nav": "Apri menù di navigazione",
         "home": "Home",

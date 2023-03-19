@@ -8,33 +8,22 @@
         </div>
 
         <div class="flex-1 ml-2">
-            <p class="font-bold text-base">{{ t("title") }}</p>
-            <p>{{ t("description") }}</p>
+            <p class="font-bold text-base">{{ t("dark.title") }}</p>
+            <p v-if="!light_unlocked">{{ t("dark.description") }}</p>
+            <p v-if="light_unlocked">{{ t("dark_either.description") }}</p>
         </div>
     </div>
     
 </template>
 
 <script setup lang="ts">
+    import { ref } from "vue";
     import { useI18n } from "vue-i18n";
     import image from "@/assets/images/moon.png";
     import { getFoundEasterEggs } from "@/utilities/easteregg_handler";
-
-    let locale = {
-        "en": {
-            "title": "It's dark",
-            "description": "I don't like the dark"
-        },
-        "it": {
-            "title": "È buio",
-            "description": "Non mi piace il buio"
-        }
-    };
-
-    if (getFoundEasterEggs().includes("picture-bright")) {
-        locale["en"]["description"] = "I don't like the dark either"
-        locale["it"]["description"] = "Non mi piace nemmeno il buio"
-    }
+    import locale from "@/locales/easteregg";
 
     const { t } = useI18n({ messages: locale });
+
+    const light_unlocked = ref(getFoundEasterEggs().includes("picture-bright"));
 </script>

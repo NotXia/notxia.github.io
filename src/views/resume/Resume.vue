@@ -44,23 +44,9 @@
     import Work from "./sections/Work.vue";
     import Other from "./sections/Other.vue";
     import { useI18n } from "vue-i18n";
+    import locale from "@/locales/resume";
 
     import pdf_image from "@/assets/images/icons/pdf.svg";
-    import cv_it from "@/assets/cv/it.pdf";
-    import cv_en from "@/assets/cv/en.pdf";
-    import cv_it_color from "@/assets/cv/it_color.pdf";
-    import cv_en_color from "@/assets/cv/en_color.pdf";
 
-    const { t } = useI18n({ messages: {
-        "en": {
-            "cv_link": cv_en,
-            "cv_link_color": cv_en_color,
-            "with_colors": "but colored"
-        },
-        "it": {
-            "cv_link": cv_it,
-            "cv_link_color": cv_it_color,
-            "with_colors": "ma colorato"
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 </script>
