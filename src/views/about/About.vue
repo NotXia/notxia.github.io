@@ -81,23 +81,9 @@
     import { useI18n } from "vue-i18n";
     import { type ComputedRef, computed, onMounted, watch, ref } from "vue";
     import { initPopovers } from "flowbite";
+    import about_locale from "@/locales/about";
 
-    const { t, locale } = useI18n({ messages: {
-        "en": {
-            "about me": "About me",
-            "reading": "Currently I'm reading",
-
-            "that's bright": "That's bright",
-            "thanks": "Thanks"
-        },
-        "it": {
-            "about me": "Su di me",
-            "reading": "Attualmente sto leggendo",
-
-            "that's bright": "È luminoso",
-            "thanks": "Grazie"
-        }
-    } });
+    const { t, locale } = useI18n({ messages: about_locale });
 
     const current_locale = ref(locale.value);
 

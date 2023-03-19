@@ -39,7 +39,7 @@
     import AnimalHouse from "./cards/AnimalHouse.vue";
     import TweetAnalysis from "./cards/TweetAnalysis.vue";
     import { useI18n } from "vue-i18n";
-    import locale from "./locale.json";
+    import locale from "@/locales/projects";
 
     const { t } = useI18n({ messages: locale });
 </script>

@@ -8,8 +8,8 @@
         </div>
 
         <div class="flex-1 ml-2">
-            <p class="font-bold text-base">{{ t("title") }}</p>
-            <p>{{ t("description") }}</p>
+            <p class="font-bold text-base">{{ t("something.title") }}</p>
+            <p>{{ t("something.description") }}</p>
         </div>
     </div>
     
@@ -18,15 +18,7 @@
 <script setup lang="ts">
     import { useI18n } from "vue-i18n";
     import image from "@/assets/images/sad.svg";
+    import locale from "@/locales/easteregg";
 
-    const { t } = useI18n({ messages: {
-        "en": {
-            "title": "You didn't like that?",
-            "description": "I hope this one is better"
-        },
-        "it": {
-            "title": "Non ti piaceva?",
-            "description": "Spero che questo sia meglio"
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 </script>

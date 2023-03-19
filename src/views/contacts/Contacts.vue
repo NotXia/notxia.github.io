@@ -24,7 +24,7 @@
     import Navbar from "@/components/navbar/Navbar.vue";
     import ScreenCenter from "@/components/screen-center/ScreenCenter.vue";
     import { useI18n } from "vue-i18n";
-    import locale from "./locale.json";
+    import locale from "@/locales/contacts";
     import ContactLink from "./ContactLink.vue";
 
     import mail_icon from "@/assets/images/icons/mail.svg";

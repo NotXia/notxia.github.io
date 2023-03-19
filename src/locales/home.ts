@@ -1,4 +1,4 @@
-{
+export default {
     "en": {
         "i am a": "I'm a",
         "cs student": "Computer Science Student",

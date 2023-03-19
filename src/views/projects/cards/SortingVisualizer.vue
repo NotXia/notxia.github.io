@@ -7,7 +7,7 @@
             { label: 'Demo', url: 'https://notxia.github.io/sorting-visualizer/' }
         ]">
               
-        {{ t('description') }}
+        {{ t('sort_visualizer.description') }}
     </ProjectCard>
 </template>
 
@@ -16,15 +16,7 @@
     import ProjectCard from "../ProjectCard.vue";
     import { useI18n } from "vue-i18n";
     import image from "@/assets/images/projects/sorting-visualizer.png";
+    import locale from "@/locales/projects";
 
-    const { t } = useI18n({ messages: {
-        en: {
-            description:
-                "Visualizer of some sorting algorithms."
-        },
-        it: {
-            description:
-                "Visualizzazione di alcuni algoritmi di ordinamento."
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 </script>

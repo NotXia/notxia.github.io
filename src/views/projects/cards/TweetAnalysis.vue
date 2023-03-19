@@ -6,8 +6,8 @@
             { label: 'Repository', url: 'https://github.com/NotXia/tweet-analysis' }
         ]">
         
-        <p class="text-center">{{ t("unibo") }}</p>
-        <p>{{ t('description') }}</p>
+        <p class="text-center">{{ t("unibo_22-23") }}</p>
+        <p>{{ t('tweet_analysis.description') }}</p>
     </ProjectCard>
 </template>
 
@@ -16,19 +16,7 @@
     import ProjectCard from "../ProjectCard.vue";
     import { useI18n } from "vue-i18n";
     import image from "@/assets/images/projects/tweet-analysis.png";
+    import locale from "@/locales/projects";
 
-    const { t } = useI18n({ messages: {
-        en: {
-            unibo: "University of Bologna, A.Y. 2022-2023",
-            description:
-                "Project for the Software Engineering course.\n" +
-                "Twitter client with analytics features developed using the Scrum methodology."
-        },
-        it: {
-            unibo: "Università di Bologna, A.A. 2022-2023",
-            description:
-                "Progetto per il corso di Ingegneria del Software.\n" +
-                "Webapp per l'analisi di tweet sviluppata con metodologia Scrum."
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 </script>

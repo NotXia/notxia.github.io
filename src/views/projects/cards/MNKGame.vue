@@ -6,8 +6,8 @@
             { label: 'Repository', url: 'https://github.com/NotXia/MNKGame' }
         ]">
         
-        <p class="text-center">{{ t("unibo") }}</p>
-        <p>{{ t('description') }}</p>
+        <p class="text-center">{{ t("unibo_20-21") }}</p>
+        <p>{{ t('mnk.description') }}</p>
     </ProjectCard>
 </template>
 
@@ -16,19 +16,7 @@
     import ProjectCard from "../ProjectCard.vue";
     import { useI18n } from "vue-i18n";
     import image from "@/assets/images/projects/mnkgame.png";
+    import locale from "@/locales/projects";
 
-    const { t } = useI18n({ messages: {
-        en: {
-            unibo: "University of Bologna, A.Y. 2020-2021",
-            description:
-                "Project for the Algorithms and Data Structures course.\n" +
-                "Algorithm able to efficiently play a generalized version of tic-tac-toe."
-        },
-        it: {
-            unibo: "Università di Bologna, A.A. 2020-2021",
-            description:
-                "Progetto per il corso di Algoritmi e Strutture Dati.\n" +
-                "Algoritmo in grado di giocare in modo efficiente ad una versione generalizzata del tris."
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 </script>

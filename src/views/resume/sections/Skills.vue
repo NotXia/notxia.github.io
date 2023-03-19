@@ -75,7 +75,7 @@
     import { useI18n } from "vue-i18n";
     import ActivityParagraph from "../components/ActivityParagraph.vue";
     import ProgrammingLogo from "../components/ProgrammingLogo.vue";
-    import locale from "../locale.js";
+    import locale from "@/locales/resume";
 
     import nodejs_logo from "@/assets/images/icons/nodejs.svg";
     import php_logo from "@/assets/images/icons/php.svg";
@@ -109,6 +109,5 @@
     import python_logo from "@/assets/images/icons/python.svg";
     import cpu_logo from "@/assets/images/icons/cpu.svg";
 
-    // @ts-ignore
     const { t } = useI18n({ messages: locale });
 </script>

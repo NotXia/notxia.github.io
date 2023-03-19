@@ -35,6 +35,7 @@
     import SomethingEgg from "./eggs/Something.vue";
     import PictureBrightEgg from "./eggs/PictureBright.vue";
     import PictureNoLightEgg from "./eggs/PictureNoLight.vue";
+    import locale from "@/locales/easteregg";
 
     const show_banner = ref(false);
     const easteregg = ref("");
@@ -42,16 +43,7 @@
     const total_eastereggs = ref(getTotalEasterEggsCount());
     const found_eastereggs = ref(getFoundEasterEggsCount());
 
-    const { t } = useI18n({ messages: {
-        "en": {
-            "easter eggs found": "easter eggs found",
-            "all easter eggs found": "You found all easter eggs 🥚"
-        },
-        "it": {
-            "easter eggs found": "easter egg trovati",
-            "all easter eggs found": "Hai trovato tutti gli easter egg 🥚"
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 
 
     let current_dismiss_timeout:number|null = null;
@@ -59,7 +51,6 @@
     function show(easteregg_name:string) {
         easteregg.value = easteregg_name;
         found_eastereggs.value = getFoundEasterEggsCount();
-        console.log(getFoundEasterEggsCount())
         show_banner.value = true;
         
         if (current_dismiss_timeout) { clearTimeout(current_dismiss_timeout) }

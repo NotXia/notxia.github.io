@@ -7,7 +7,7 @@
             { label: 'Demo', url: 'https://notxia.github.io/pathfinding-visualizer/' }
         ]">
 
-        {{ t('description') }}
+        {{ t('pathfinding_visualizer.description') }}
     </ProjectCard>
 </template>
 
@@ -16,15 +16,7 @@
     import ProjectCard from "../ProjectCard.vue";
     import { useI18n } from "vue-i18n";
     import image from "@/assets/images/projects/pathfinding-visualizer.png";
+    import locale from "@/locales/projects";
 
-    const { t } = useI18n({ messages: {
-        en: {
-            description:
-                "Visualizer of some graph search algorithms."
-        },
-        it: {
-            description:
-                "Visualizzazione di alcuni algoritmi di ricerca su grafi."
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 </script>

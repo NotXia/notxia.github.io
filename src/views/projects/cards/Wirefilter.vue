@@ -6,8 +6,8 @@
             { label: 'VirtualSquare', url: 'http://wiki.virtualsquare.org/#!index.md' }
         ]">
         
-        <p class="text-center">{{ t("unibo") }}</p>
-        <p>{{ t('description') }}</p>
+        <p class="text-center">{{ t("unibo_22-23") }}</p>
+        <p>{{ t("wirefilter.description") }}</p>
     </ProjectCard>
 </template>
 
@@ -15,19 +15,7 @@
 <script setup lang="ts">
     import ProjectCard from "../ProjectCard.vue";
     import { useI18n } from "vue-i18n";
+    import locale from "@/locales/projects";
 
-    const { t } = useI18n({ messages: {
-        en: {
-            unibo: "University of Bologna, A.Y. 2022-2023",
-            description:
-                "Virtual Distributed Ethernet (VDE) is an open source project that allows the creation of virtual networks through a set of plugins.\n" +
-                "Wirefilter is a plugin that allows to manipulate packet flow by changing the parameters of the virtual cable."
-        },
-        it: {
-            unibo: "Università di Bologna, A.A. 2022-2023",
-            description:
-                "Virtual Distributed Ethernet (VDE) è un progetto open source che consente di creare reti virtuali tramite l'utilizzo modulare di plugin.\n" +
-                "Wirefilter è un plugin che consente di manipolare il flusso dei pacchetti in transito impostando parametri per il cavo virtuale."
-        }
-    } });
+    const { t } = useI18n({ messages: locale });
 </script>

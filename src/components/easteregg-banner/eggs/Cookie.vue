@@ -8,8 +8,8 @@
         </div>
 
         <div class="flex-1 ml-2">
-            <p class="font-bold text-base">{{ t("title") }}</p>
-            <p>{{ t("description") }}</p>
+            <p class="font-bold text-base">{{ t("cookie.title") }}</p>
+            <p>{{ t("cookie.description") }}</p>
         </div>
     </div>
 
@@ -18,15 +18,7 @@
 <script setup lang="ts">
     import { useI18n } from "vue-i18n";
     import image from "@/assets/images/cookie.png";
-
-    const { t } = useI18n({ messages: {
-        "en": {
-            "title": "Who wants a cookie?",
-            "description": "It appears that you read the cookie policy"
-        },
-        "it": {
-            "title": "Chi vuole un biscotto?",
-            "description": "Sembra che hai letto l'informativa cookie"
-        }
-    } });
+    import locale from "@/locales/easteregg";
+    
+    const { t } = useI18n({ messages: locale });
 </script>
