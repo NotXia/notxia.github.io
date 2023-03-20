@@ -8,7 +8,7 @@
             <div class="text-xl order-2 md:order-1 [&>*>p]:mb-2">
                 <h1 class="text-5xl font-bold mb-5">{{ t("about me") }}</h1>
 
-                <div v-show="current_locale === 'it'">
+                <div v-if="current_locale === 'it'">
                     <p>
                         Mi chiamo 
                         <span data-popover-target="popover-name" class="underline decoration-dashed decoration-slate-900/70 dark:decoration-slate-50/70">Xia Tian Cheng</span>, 
@@ -28,7 +28,7 @@
                     </p>
                 </div>
 
-                <div v-show="current_locale === 'en'">
+                <div v-if="current_locale === 'en'">
                     <p>
                         My name is
                         <span data-popover-target="popover-name" class="underline decoration-dashed decoration-slate-900/70 dark:decoration-slate-50/70">Xia Tian Cheng</span>, 
