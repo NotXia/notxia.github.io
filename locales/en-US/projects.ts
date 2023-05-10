@@ -11,6 +11,12 @@ export default {
     "notxia.github.io.description": "Here's a secret preview of my website.",
     "no recursion": "Recursion out of service, sorry for the inconvenience.",
 
+    
+    "bsc_thesis.title": "Bachelor's thesis",
+    "bsc_thesis.description": "",
+
+    "wavemap.description": "Android app with a heat-map displaying the power of signals like Wi-Fi, Bluetooth, LTE, ...",
+
     "wirefilter.description":
         "Virtual Distributed Ethernet (VDE) is an open source project that allows the creation of virtual networks through a set of plugins.\n" +
         "Wirefilter is a plugin that allows to manipulate packet flow by changing the parameters of the virtual cable.",
