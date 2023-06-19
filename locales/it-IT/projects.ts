@@ -16,7 +16,7 @@ export default {
     "bsc_thesis.description": "Qualcosa riguardate l'utilizzo di Large Language Model in ambito biomedico.",
 
     "wavemap.description": 
-        "Progetto per il corso Laboratorio di Applicazioni Mobili.\n" + 
+        "Progetto per il corso di Laboratorio di Applicazioni Mobili.\n" + 
         "Applicazione Android per visualizzare la potenza di segnali (Wi-Fi, Bluetooth, LTE) e il livello acustico attraverso una heat-map.",
 
     "wirefilter.description":
