@@ -13,9 +13,11 @@ export default {
 
 
     "bsc_thesis.title": "Tesi triennale",
-    "bsc_thesis.description": "",
+    "bsc_thesis.description": "Qualcosa riguardate l'utilizzo di Large Language Model in ambito biomedico.",
 
-    "wavemap.description": "App Android con heat-map per la visualizzazione della potenza di segnali come Wi-Fi, Bluetooth, LTE, ...",
+    "wavemap.description": 
+        "Progetto per il corso Laboratorio di Applicazioni Mobili.\n" + 
+        "Applicazione Android per visualizzare la potenza di segnali (Wi-Fi, Bluetooth, LTE) e il livello acustico attraverso una heat-map.",
 
     "wirefilter.description":
         "Virtual Distributed Ethernet (VDE) è un progetto open source che consente di creare reti virtuali tramite l'utilizzo modulare di plugin.\n" +
