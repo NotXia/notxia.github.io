@@ -6,7 +6,8 @@
         </ActivityParagraph>
 
         <ActivityParagraph :title="$t('diploma')" :subtitle="$t('aldini')" right_text="2015 - 2020">
-            {{ $t("final degree") }}: 100/100 {{ $t("with honors") }}
+            <div>{{ $t('diploma desc') }}</div>
+            <div>{{ $t("final grade") }}: 100/100 {{ $t("with honors") }}</div>
         </ActivityParagraph>
     </div>
 </template>

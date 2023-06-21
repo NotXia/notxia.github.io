@@ -18,12 +18,16 @@ export default {
     "m_7": "Lug", "m_8": "Ago", "m_9": "Set", "m_10": "Ott", "m_11": "Nov", "m_12": "Dic",
     "present": "in corso",
 
-    "final degree": "Valutazione finale",
+    "final grade": "Valutazione finale",
     "with honors": "e lode",
+    
     "bs in cs": "Laurea Triennale in Informatica",
     "unibo": "Alma Mater Studiorum, Università di Bologna",
+    
     "diploma": "Diploma di perito informatico",
     "aldini": "I.T.I Aldini Valeriani, Bologna",
+    "diploma desc": "",
+    
     "web development": "Sviluppo web",
     "devops": "DevOps",
     "data analysis": "Data analysis",

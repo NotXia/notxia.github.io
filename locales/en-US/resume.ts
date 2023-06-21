@@ -18,12 +18,16 @@ export default {
     "m_7": "July", "m_8": "Aug", "m_9": "Sept", "m_10": "Oct", "m_11": "Nov", "m_12": "Dec",
     "present": "present",
 
-    "final degree": "Final degree",
+    "final grade": "Final grade",
     "with honors": "with honors",
+    
     "bs in cs": "Bachelor's Degree in Computer Science",
     "unibo": "Alma Mater Studiorum, University of Bologna",
-    "diploma": "High school diploma, major in IT",
+    
+    "diploma": "Technical institute diploma",
     "aldini": "Aldini Valeriani, Bologna, Italy",
+    "diploma desc": "Informatics specialization",
+    
     "web development": "Web development",
     "devops": "DevOps",
     "data analysis": "Data analysis",
@@ -38,7 +42,7 @@ export default {
 
     "pcto toyota": "IT/IS Office, Internship",
     "pcto toyota description": "Internship organized during high school.\n" +
-                                "IT support, maintenance and initial setup of network devices.\n" +
+                                "IT support, maintenance and setup of network devices.\n" +
                                 "SQL programming, automation with bash and batch scripts.",
 
 
