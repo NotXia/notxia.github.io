@@ -65,6 +65,7 @@
                 <li><ProgrammingLogo :logo="c_logo" language="C" /></li>
                 <li><ProgrammingLogo :logo="cpp_logo" language="C++" /></li>
                 <li><ProgrammingLogo :logo="java_logo" language="Java" /></li>
+                <li><ProgrammingLogo :logo="kotlin_logo" language="Kotlin" /></li>
                 <li><ProgrammingLogo :logo="cpu_logo" language="Assembly x86" needInvert /></li>
             </ul>
         </ActivityParagraph>
@@ -105,4 +106,5 @@
     import java_logo from "@/assets/images/icons/java.svg";
     import python_logo from "@/assets/images/icons/python.svg";
     import cpu_logo from "@/assets/images/icons/cpu.svg";
+    import kotlin_logo from "@/assets/images/icons/kotlin.svg";
 </script>
