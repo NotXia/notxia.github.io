@@ -42,9 +42,11 @@ export default {
 
 
     "pcto toyota": "IT/IS Office, Internship",
-    "pcto toyota description": "Internship organized during high school.\n" +
-                                "IT support, maintenance and setup of network devices.\n" +
-                                "SQL programming, automation with bash and batch scripts.",
+    "pcto toyota description": "Internship organized during high school.",
+    "pcto toyota description list1": "IT support.",
+    "pcto toyota description list2": "Maintenance and setup of network devices.",
+    "pcto toyota description list3": "Report creation using SQL.",
+    "pcto toyota description list4": "Automations using bash and batch scripts.",
 
 
     "ois": "Informatics Olympiad in Teams",

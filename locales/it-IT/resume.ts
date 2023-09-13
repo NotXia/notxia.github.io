@@ -42,10 +42,11 @@ export default {
 
 
     "pcto toyota": "Ufficio IT/IS, Stage",
-    "pcto toyota description": "Percorsi per le Competenze Trasversali e per l'Orientamento (PCTO)\n" +
-                                "Attività di helpdesk, manutenzione e configurazione di apparati di rete.\n" +
-                                "Programmazione SQL, automazioni con script bash e batch.",
-
+    "pcto toyota description": "Percorsi per le Competenze Trasversali e per l'Orientamento (PCTO)",
+    "pcto toyota description list1": "Attività di helpdesk.",
+    "pcto toyota description list2": "Manutenzione e configurazione di apparati di rete.",
+    "pcto toyota description list3": "Generazione di report con SQL.",
+    "pcto toyota description list4": "Automazione di processi con script bash e batch.",
 
     "ois": "Olimpiadi di informatica a squadre",
     "ois description": "Programmazione competitiva a squadre.",
