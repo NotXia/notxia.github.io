@@ -12,8 +12,8 @@ export default {
     "contacts": "Contacts", 
 
     // Home
-    "i am a": "I'm a",
-    "cs student": "Computer Science Student",
+    "i am a": "I'm an",
+    "cs student": "A.I. Student",
     "a very accurate description of me": "Sometimes a bit distracted",
 
 
