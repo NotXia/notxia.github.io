@@ -13,7 +13,7 @@ export default {
 
     // Home
     "i am a": "Sono uno",
-    "cs student": "Studente di Informatica",
+    "cs student": "Studente di I.A.",
     "a very accurate description of me": "A volte un po' distratto",
 
 
