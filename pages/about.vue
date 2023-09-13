@@ -11,9 +11,11 @@
                 <div v-if="current_locale === 'it'">
                     <p>
                         Mi chiamo 
-                        <span data-popover-target="popover-name" class="underline decoration-dashed decoration-slate-900/70 dark:decoration-slate-50/70">Xia Tian Cheng</span>, 
-                        spesso conosciuto come Xia (cognome) o Riccardo.
-                        Studio informatica all'Università di Bologna e al momento i miei interessi sono orientati verso l'analisi dati e l'intelligenza artificiale.
+                        <span data-popover-target="popover-name" class="underline decoration-dashed decoration-slate-900/70 dark:decoration-slate-50/70">Tian Cheng</span>, 
+                        spesso conosciuto come 
+                        <span data-popover-target="popover-surname" class="underline decoration-dashed decoration-slate-900/70 dark:decoration-slate-50/70">Xia</span> 
+                        (cognome) o Riccardo.
+                        Studio artificial intelligence all'Università di Bologna e al momento i miei interessi sono orientati verso l'ambito NLP.
                     </p>
                     <p>
                         Oltre a premere tasti sulla tastiera, 
@@ -31,9 +33,11 @@
                 <div v-if="current_locale === 'en'">
                     <p>
                         My name is
-                        <span data-popover-target="popover-name" class="underline decoration-dashed decoration-slate-900/70 dark:decoration-slate-50/70">Xia Tian Cheng</span>, 
-                        frequently known as Xia (surname) or Richard.
-                        I am a computer science student at the University of Bologna and currently my interests are focused on data analysis and artificial intelligence.
+                        <span data-popover-target="popover-name" class="underline decoration-dashed decoration-slate-900/70 dark:decoration-slate-50/70">Tian Cheng</span>, 
+                        frequently known as 
+                        <span data-popover-target="popover-surname" class="underline decoration-dashed decoration-slate-900/70 dark:decoration-slate-50/70">Xia</span> 
+                        (surname) or Riccardo.
+                        I am an artificial intelligence student at the University of Bologna and currently my interests are focused on natural language processing.
                     </p>
                     <p>
                         Aside from pressing keys on a keyboard, 
@@ -42,7 +46,7 @@
                         and playing strategic games.
                     </p>
                     <p>
-                        According to <a class="hover:underline italic" href="https://www.16personalities.com">16Personalities</a> I'm an 
+                        According to <a class="hover:underline italic" href="https://www.16personalities.com">16Personalities</a>, I'm an 
                         <a class="font-mono hover:underline" href="https://www.16personalities.com/profiles/6b57f54bf1242">Architect (INTJ)</a>. 
                         I must admit that the description is quite accurate.
                     </p>
@@ -66,7 +70,13 @@
 
     <div data-popover id="popover-name" role="tooltip" class="absolute z-10 invisible inline-block transition-opacity duration-500 opacity-0">
         <div class="text-lg px-3 py-2 bg-slate-200 dark:bg-slate-800 rounded">
-            夏天成
+            天成
+        </div>
+    </div>
+
+    <div data-popover id="popover-surname" role="tooltip" class="absolute z-10 invisible inline-block transition-opacity duration-500 opacity-0">
+        <div class="text-lg px-3 py-2 bg-slate-200 dark:bg-slate-800 rounded">
+            夏
         </div>
     </div>
 
