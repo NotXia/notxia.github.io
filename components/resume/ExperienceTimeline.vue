@@ -20,7 +20,12 @@
                     { 
                         title: $t('bs in cs'), time_label: '2020 - 2023',
                         description: $t('unibo'), 
-                        start: new Date(2020, september, 1), end: new Date(), current: true
+                        start: new Date(2020, september, 1), end: new Date(2023, september, 1), current: true
+                    },
+                    { 
+                        title: $t('ms in ai'), time_label: '2023 - 2025',
+                        description: $t('unibo'), 
+                        start: new Date(2023, september, 1), end: new Date(), current: true
                     }
                 ]"
                 :left="[

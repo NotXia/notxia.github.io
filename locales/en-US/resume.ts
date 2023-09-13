@@ -22,6 +22,7 @@ export default {
     "with honors": "with honors",
     
     "bs in cs": "Bachelor's Degree in Computer Science",
+    "ms in ai": "Master's Degree in Artificial Intelligence",
     "unibo": "Alma Mater Studiorum, University of Bologna",
     
     "diploma": "Technical institute diploma",
@@ -37,7 +38,7 @@ export default {
     "cisco it essentials description": "Maintenance and administration of IT systems.\n" +
                                         "Configuration and management of network devices.",
     
-                                        "cs50 ai description": "Problem solving through algorithms based on graphs, statistics, optimization and machine learning.",
+    "cs50 ai description": "Problem solving using algorithms based on graphs, statistics, optimization and machine learning.",
 
 
     "pcto toyota": "IT/IS Office, Internship",
@@ -51,6 +52,6 @@ export default {
 
     "MAST foundation": "MAST Foundation",
     "MAST expeditions description": "Design and implementation of an IOT box with Flip & Click programmable microcontrollers and " + 
-                                    "Zerynth Studio development environment."
+                                    "the Zerynth Studio development environment."
     
 }

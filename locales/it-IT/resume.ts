@@ -22,6 +22,7 @@ export default {
     "with honors": "e lode",
     
     "bs in cs": "Laurea Triennale in Informatica",
+    "ms in ai": "Laurea Magistrale in Artificial Intelligence",
     "unibo": "Alma Mater Studiorum, Università di Bologna",
     
     "diploma": "Diploma di perito informatico",

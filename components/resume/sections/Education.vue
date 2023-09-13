@@ -2,6 +2,9 @@
     <div>
         <h2 class="text-4xl font-bold tracking-wide">{{ $t("education") }}</h2>
 
+        <ActivityParagraph :title="$t('ms in ai')" :subtitle="$t('unibo')" :right_text="`2023 - ${$t('present')}`">
+        </ActivityParagraph>
+        
         <ActivityParagraph :title="$t('bs in cs')" :subtitle="$t('unibo')" :right_text="`2020 - ${$t('present')}`">
         </ActivityParagraph>
 

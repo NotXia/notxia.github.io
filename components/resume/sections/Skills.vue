@@ -21,6 +21,7 @@
                 <li><ProgrammingLogo :logo="scikitlearn_logo" language="Scikit-learn" /></li>
                 <li><ProgrammingLogo :logo="tensorflow_logo" language="Tensorflow" /></li>
                 <li><ProgrammingLogo :logo="keras_logo" language="Keras" /></li>
+                <li><ProgrammingLogo :logo="pytorch_logo" language="PyTorch" /></li>
             </ul>
             <!-- <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="knime_logo" language="KNIME" /></li>
@@ -100,6 +101,7 @@
     import knime_logo from "@/assets/images/icons/knime.svg";
     import database_logo from "@/assets/images/icons/database.svg";
     import mongo_logo from "@/assets/images/icons/mongo.svg";
+    import pytorch_logo from "@/assets/images/icons/pytorch.svg";
     
     import c_logo from "@/assets/images/icons/c.svg";
     import cpp_logo from "@/assets/images/icons/cpp.svg";
