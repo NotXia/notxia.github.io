@@ -13,11 +13,11 @@ export default {
 
     
     "bsc_thesis.title": "Bachelor's thesis",
-    "bsc_thesis.description": "Something related to the application of Large Language Models in the biomedical field.",
+    "bsc_thesis.description": "Automatic text summarization of biomedical publications using pretrained language models.",
 
     "wavemap.description": 
         "Project for the Mobile Applications Laboratory course.\n" + 
-        "Android application displaying the strength of signals (Wi-Fi, Bluetooth, LTE) and noise level through a heat-map.",
+        "Android application displaying, using a heat-map, the strength of signals (Wi-Fi, Bluetooth, LTE) and noise level.",
 
     "wirefilter.description":
         "Virtual Distributed Ethernet (VDE) is an open source project that allows the creation of virtual networks through a set of plugins.\n" +
