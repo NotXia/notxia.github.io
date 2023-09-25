@@ -1,8 +1,7 @@
 <template>
 
     <div v-if="init" 
-        class="bg-gray-100 text-gray-900 min-h-screen h-full
-                dark:bg-gray-900 dark:text-slate-50"
+        class="min-h-screen h-full"
          style="font-family: 'Comfortaa'; overflow-x: hidden; ">
         
         <!-- Prevents scrollbar shift -->
@@ -36,7 +35,10 @@
         init.value = true;
     });
 
-    useHead({ htmlAttrs: { lang: locale.value } });
+    useHead({ 
+        htmlAttrs: { lang: locale.value },
+        bodyAttrs: { class: "dark:bg-gray-900 dark:text-slate-50 bg-gray-100 text-gray-900"}
+    });
     watch(locale, (new_locale) => {
         useHead({ htmlAttrs: { lang: new_locale } });
     })
