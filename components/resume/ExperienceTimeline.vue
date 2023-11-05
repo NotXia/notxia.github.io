@@ -15,17 +15,17 @@
                     { 
                         title: $t('diploma'), time_label: '2015 - 2020',
                         description: $t('aldini'), 
-                        start: new Date(2015, september, 1), end: new Date(2020, june, 1)
+                        start: new Date(2015, september, 15), end: new Date(2020, june, 20)
                     },
                     { 
                         title: $t('bs in cs'), time_label: '2020 - 2023',
                         description: $t('unibo'), 
-                        start: new Date(2020, september, 1), end: new Date(2023, september, 1), current: true
+                        start: new Date(2020, september, 21), end: new Date(2023, october, 11), current: false
                     },
                     { 
                         title: $t('ms in ai'), time_label: '2023 - 2025',
                         description: $t('unibo'), 
-                        start: new Date(2023, september, 1), end: new Date(), current: true
+                        start: new Date(2023, september, 18), end: new Date(), current: true
                     }
                 ]"
                 :left="[
