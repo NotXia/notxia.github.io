@@ -6,14 +6,19 @@ export default {
     "unibo_20-21": "Università di Bologna, A.A. 2020-2021",
     "unibo_21-22": "Università di Bologna, A.A. 2021-2022",
     "unibo_22-23": "Università di Bologna, A.A. 2022-2023",
+    "unibo_23-24": "Università di Bologna, A.A. 2023-2024",
 
     
     "notxia.github.io.description": "Ecco un'anteprima segreta del mio sito.",
     "no recursion": "Ricorsione fuori servizio, mi scuso per il disagio.",
 
+    "tablut.description": 
+        "Progetto per il corso di Fundamentals of Artificial Intelligence and Knowledge Representation (modulo 1).\n" +
+        "Agent in grado di giocare al gioco da tavolo Tablut.",
 
     "bsc_thesis.title": "Tesi triennale",
-    "bsc_thesis.description": "Generazione di riassunti in ambito biomedico utilizzando modelli di linguaggio preaddestrati.",
+    "bsc_thesis.thesis_title": "Subtopic-oriented biomedical summarization using pretrained language models",
+    "bsc_thesis.description": "Generazione di riassunti estrattivi in ambito biomedico con modelli di linguaggio preaddestrati e algoritmi di clustering.",
 
     "wavemap.description": 
         "Progetto per il corso di Laboratorio di Applicazioni Mobili.\n" + 

@@ -19,11 +19,13 @@ export default {
     "present": "present",
 
     "final grade": "Final grade",
-    "with honors": "with honors",
+    "graduation grade": "Graduation grade",
+    "with honors": "cum laude",
     
     "bs in cs": "Bachelor's Degree in Computer Science",
     "ms in ai": "Master's Degree in Artificial Intelligence",
     "unibo": "Alma Mater Studiorum, University of Bologna",
+    "thesis title": "Thesis title",
     
     "diploma": "Technical institute diploma",
     "aldini": "Aldini Valeriani, Bologna, Italy",
@@ -46,7 +48,7 @@ export default {
     "pcto toyota description list1": "IT support.",
     "pcto toyota description list2": "Maintenance and setup of network devices.",
     "pcto toyota description list3": "Report creation using SQL.",
-    "pcto toyota description list4": "Automations using bash and batch scripts.",
+    "pcto toyota description list4": "Automation using bash and batch scripts.",
 
 
     "ois": "Informatics Olympiad in Teams",

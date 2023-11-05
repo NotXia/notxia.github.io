@@ -6,13 +6,14 @@
         
         <h2 class="text-3xl text-center mt-10 mb-3">{{ $t("wip") }}</h2>
         <div class="[&>*]:my-14 first:[&>*]:mt-8">
-            <BScThesis />
+            <TablutPlayer />
             <NotXiaGithubio />
         </div>
-
-
+        
+        
         <h2 class="text-3xl text-center mt-10 mb-3">{{ $t("completed") }}</h2>
         <div class="[&>*]:my-14 first:[&>*]:mt-8">
+            <BScThesis />
             <WaveMap />
             <Wirefilter />
             <TweetAnalysis />

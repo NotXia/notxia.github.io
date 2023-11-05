@@ -19,11 +19,13 @@ export default {
     "present": "in corso",
 
     "final grade": "Valutazione finale",
-    "with honors": "e lode",
+    "graduation grade": "Valutazione finale",
+    "with honors": "con lode",
     
     "bs in cs": "Laurea Triennale in Informatica",
     "ms in ai": "Laurea Magistrale in Artificial Intelligence",
     "unibo": "Alma Mater Studiorum, Università di Bologna",
+    "thesis title": "Titolo tesi",
     
     "diploma": "Diploma di perito informatico",
     "aldini": "I.T.I Aldini Valeriani, Bologna",

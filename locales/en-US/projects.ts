@@ -6,14 +6,19 @@ export default {
     "unibo_20-21": "University of Bologna, A.Y. 2020-2021",
     "unibo_21-22": "University of Bologna, A.Y. 2021-2022",
     "unibo_22-23": "University of Bologna, A.Y. 2022-2023",
+    "unibo_23-24": "University of Bologna, A.Y. 2023-2024",
 
 
     "notxia.github.io.description": "Here's a secret preview of my website.",
     "no recursion": "Recursion out of service, sorry for the inconvenience.",
 
-    
+    "tablut.description": 
+        "Project for the Fundamentals of Artificial Intelligence and Knowledge Representation (module 1) course.\n" +
+        "Agent able to play the Tablut board game.",
+
     "bsc_thesis.title": "Bachelor's thesis",
-    "bsc_thesis.description": "Automatic text summarization of biomedical publications using pretrained language models.",
+    "bsc_thesis.thesis_title": "Subtopic-oriented biomedical summarization using pretrained language models",
+    "bsc_thesis.description": "Biomedical extractive summarization using pretrained encoders and clustering.",
 
     "wavemap.description": 
         "Project for the Mobile Applications Laboratory course.\n" + 
