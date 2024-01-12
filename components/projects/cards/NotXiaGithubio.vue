@@ -1,5 +1,6 @@
 <template>
     <ProjectCard 
+        wip
         title="notxia.github.io" 
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/notxia.github.io' },
