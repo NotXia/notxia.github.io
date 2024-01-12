@@ -2,6 +2,10 @@
     <div class="w-100 p-5 h-full">
         <div class="border border-gray-500 dark:border-gray-300 rounded-md p-3 w-full h-full flex items-center justify-center">
             <div class="w-full">
+                <div v-if="wip" class="sm:float-left flex items-center justify-center">
+                    <img src="~/assets/images/icons/wip.svg" class="h-6 sm:h-8 dark:invert"/>
+                    <span class="sm:text-lg font-bold ml-2">WIP</span>
+                </div>
                 <h3 class="text-2xl font-semibold text-center text-gray-900 dark:text-white">{{ props.title }}</h3>
                 <h4 v-if="props.subtitle" class="text font-semibold text-center text-gray-700 dark:text-gray-300">{{ props.subtitle }}</h4>
                 <div class="text-center mb-2">
@@ -24,6 +28,7 @@
         title: String,
         subtitle: { type: String, required: false },
         links: Object as PropType<{ label: string, url: string }[]>,
-        image: String
+        image: String,
+        wip: { type: Boolean, required: false }
     });
 </script>
