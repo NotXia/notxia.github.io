@@ -1,7 +1,8 @@
 <template>
     <ProjectCard 
-        title="Tablut"
+        title="Tablut" :image="image"
         :links="[ 
+            { label: 'Repository', url: 'https://github.com/NotXia/tablut-player' }
         ]">
         
         <p class="text-center">{{ $t("unibo_23-24") }}</p>
@@ -11,4 +12,5 @@
 
 
 <script setup lang="ts">
+    import image from "@/assets/images/projects/tablut.png";
 </script>
