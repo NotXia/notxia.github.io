@@ -14,7 +14,7 @@ export default {
 
     "tablut.description": 
         "Project for the Fundamentals of Artificial Intelligence and Knowledge Representation (module 1) course.\n" +
-        "Agent able to play the Tablut board game.",
+        "Minimax-based agent for the Tablut board game, tuned using a genetic algorithm.",
 
     "bsc_thesis.title": "Bachelor's thesis",
     "bsc_thesis.thesis_title": "Subtopic-oriented biomedical summarization using pretrained language models",
@@ -25,7 +25,7 @@ export default {
         "Android application displaying, using a heat-map, the strength of signals (Wi-Fi, Bluetooth, LTE) and noise level.",
 
     "wirefilter.description":
-        "Virtual Distributed Ethernet (VDE) is an open source project that allows the creation of virtual networks through a set of plugins.\n" +
+        "Virtual Distributed Ethernet (VDE) is an open-source project that allows the creation of virtual networks through a set of plugins.\n" +
         "Wirefilter is a plugin that allows to manipulate packet flow by changing the parameters of the virtual cable.",
 
     "tweet_analysis.description":
@@ -52,8 +52,8 @@ export default {
         "Algorithm able to efficiently play a generalized version of tic-tac-toe.",
 
     "platform.description":
-        "Project for the Programmin course.\n" +
-        "Text based platform game with randomly generated levels.",
+        "Project for the Programming course.\n" +
+        "Text-based platform game with randomly generated levels.",
 
     "pathfinding_visualizer.description": "Visualizer of some graph search algorithms.",
     
