@@ -5,7 +5,7 @@
             { label: 'Repository', url: 'https://github.com/NotXia/notxia.github.io' },
         ]">
         
-        <p v-if="!show_recursive_message">{{ $t('notxia.github.io.description') }}</p>
+        <p v-if="!show_recursive_message" class="text-center">{{ $t('notxia.github.io.description') }}</p>
 
         <div class="w-full h-72 relative">
             <div role="status" v-if="!iframe_loaded && !show_recursive_message" class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
