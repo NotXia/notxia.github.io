@@ -1,8 +1,8 @@
 <template>
     <div class="w-100 p-5 h-full">
         <div class="border border-gray-500 dark:border-gray-300 rounded-md p-3 w-full h-full flex items-center justify-center">
-            <div class="w-full">
-                <div v-if="wip" class="sm:float-left flex items-center justify-center">
+            <div class="w-full relative">
+                <div v-if="wip" class="sm:absolute sm:float-left flex items-center justify-center">
                     <img src="~/assets/images/icons/wip.svg" class="h-6 sm:h-8 dark:invert"/>
                     <span class="sm:text-lg font-bold ml-2">WIP</span>
                 </div>
