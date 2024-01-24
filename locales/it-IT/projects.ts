@@ -16,6 +16,7 @@ export default {
         "Progetto per il corso di Fundamentals of Artificial Intelligence and Knowledge Representation (modulo 1).\n" +
         "Agente implementato con minimax e addestrato con un algoritmo genetico per il gioco da tavolo Tablut.",
 
+    "thesis": "Tesi",
     "bsc_thesis.title": "Tesi triennale",
     "bsc_thesis.thesis_title": "Subtopic-oriented biomedical summarization using pretrained language models",
     "bsc_thesis.description": "Generazione di riassunti estrattivi in ambito biomedico con modelli di linguaggio preaddestrati e algoritmi di clustering.",

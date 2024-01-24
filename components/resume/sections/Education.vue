@@ -6,7 +6,10 @@
         </ActivityParagraph>
         
         <ActivityParagraph :title="$t('bs in cs')" :subtitle="$t('unibo')" :right_text="`2020 - 2023`">
-            <div>{{ $t("thesis title") }}: Subtopic-oriented biomedical summarization using pretrained language models</div>
+            <div>
+                {{ $t("thesis title") }}:&nbsp;
+                <a class="font-mono hover:underline" href="https://amslaurea.unibo.it/id/eprint/29686">Subtopic-oriented biomedical summarization using pretrained language models</a>
+            </div>
             <div>{{ $t("graduation grade") }}: 110/110 {{ $t("with honors") }}</div>
         </ActivityParagraph>
 

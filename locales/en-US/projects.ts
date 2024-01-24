@@ -16,6 +16,7 @@ export default {
         "Project for the Fundamentals of Artificial Intelligence and Knowledge Representation (module 1) course.\n" +
         "Minimax-based agent for the Tablut board game, tuned using a genetic algorithm.",
 
+    "thesis": "Thesis",
     "bsc_thesis.title": "Bachelor's thesis",
     "bsc_thesis.thesis_title": "Subtopic-oriented biomedical summarization using pretrained language models",
     "bsc_thesis.description": "Biomedical extractive summarization using pretrained encoders and clustering.",

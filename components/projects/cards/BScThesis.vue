@@ -5,7 +5,8 @@
         :image="image"
         :links="[ 
             { label: 'Repository1', url: 'https://github.com/NotXia/biomed-ext-summ' },
-            { label: 'Repository2', url: 'https://github.com/NotXia/pubmed-summ' }
+            { label: 'Repository2', url: 'https://github.com/NotXia/pubmed-summ' },
+            { label: $t('thesis'), url: 'https://amslaurea.unibo.it/id/eprint/29686' }
         ]">
         
         <p class="text-center">{{ $t("unibo_22-23") }}</p>
