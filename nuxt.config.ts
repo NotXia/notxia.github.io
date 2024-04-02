@@ -45,4 +45,10 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+
+    nitro: {
+        prerender: {
+            failOnError: false,
+        },
+    },
 })
