@@ -4,7 +4,7 @@
     <main>
         <h1 class="text-5xl font-bold text-center mb-5">{{ $t("projects") }}</h1>
         
-        <div class="grid grid-flow-row-dense grid-cols-12 grid-rows-12 m-auto justify-center [&>*]:px-5 [&>*]:py-5">
+        <div class="grid grid-flow-row-dense grid-cols-12 m-auto justify-center [&>*]:px-5 [&>*]:py-5">
             <NotXiaGithubio             class="col-span-12" />
             <TablutPlayer               class="lg:col-span-4 row-span-1 col-span-12" />
             <BScThesis                  class="lg:col-span-8 row-span-1 col-span-12" />
