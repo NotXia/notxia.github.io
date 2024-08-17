@@ -27,7 +27,7 @@ export default {
     "unibo": "Alma Mater Studiorum, Università di Bologna",
     "thesis title": "Titolo tesi",
     
-    "diploma": "Diploma di perito informatico",
+    "diploma": "Diploma di Perito Informatico",
     "aldini": "I.T.I Aldini Valeriani, Bologna",
     "diploma desc": "",
     
