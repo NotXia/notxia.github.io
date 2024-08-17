@@ -27,7 +27,7 @@ export default {
     "unibo": "Alma Mater Studiorum, University of Bologna",
     "thesis title": "Thesis title",
     
-    "diploma": "Technical institute diploma",
+    "diploma": "Technical Institute Diploma",
     "aldini": "Aldini Valeriani, Bologna, Italy",
     "diploma desc": "Informatics specialization",
     
