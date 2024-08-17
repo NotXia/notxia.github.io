@@ -59,4 +59,7 @@ export default {
     "pathfinding_visualizer.description": "Visualizer of some graph search algorithms.",
     
     "sort_visualizer.description": "Visualizer of some sorting algorithms.",
+
+    "nn_scratch.title": "Neural networks from scratch",
+    "nn_scratch.description": "Automatic differentiation and basic neural network layers implemented from scratch using Numpy.",
 }

@@ -59,4 +59,7 @@ export default {
     "pathfinding_visualizer.description": "Visualizzazione di alcuni algoritmi di ricerca su grafi.",
 
     "sort_visualizer.description": "Visualizzazione di alcuni algoritmi di ordinamento.",
+
+    "nn_scratch.title": "Reti neurali da zero",
+    "nn_scratch.description": "Differenziazione automatica e componenti base di una rete neurale implementati in Numpy.",
 }
