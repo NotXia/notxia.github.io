@@ -14,7 +14,7 @@
                 <p class="w-full text-lg whitespace-pre-wrap mb-2 text-gray-500 dark:text-gray-400">
                     <slot></slot>
                 </p>
-                <img v-if="props.image" :src="props.image" alt="" class="max-w-full max-h-96 mx-auto">
+                <img v-if="props.image" :src="props.image" alt="" :class="`max-w-full max-h-96 mx-auto ${image_classes}`">
             </div>
         </div>
     </div>
@@ -29,6 +29,7 @@
         subtitle: { type: String, required: false },
         links: Object as PropType<{ label: string, url: string }[]>,
         image: String,
+        image_classes: { type: String, required: false, default: "" },
         wip: { type: Boolean, required: false }
     });
 </script>
