@@ -1,0 +1,6 @@
+.git
+.github
+.nuxt
+.output
+node_modules
+package-lock.json
