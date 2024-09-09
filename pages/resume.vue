@@ -10,12 +10,12 @@
                 </a>
             </div>
 
-            <div class="w-20 mx-5">
+            <!-- <div class="w-20 mx-5">
                 <a :href="$t('cv_link_color')" target="_blank">
                     <img src="~/assets/images/icons/pdf.svg" alt="Download" class="h-10 mx-auto dark:invert">
                     <p class="text-sm text-center mt-1">CV<span class="text-xs">, {{ $t("with_colors") }}</span></p>
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <div class="flex flex-col md:flex-row">
