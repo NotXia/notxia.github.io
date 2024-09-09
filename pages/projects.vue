@@ -3,6 +3,19 @@
 
     <main>
         <h1 class="text-5xl font-bold text-center mb-5">{{ $t("projects") }}</h1>
+
+        <div class="flex justify-center items-start">
+            <div>
+                <a href="https://github.com/NotXia" class="rounded-full p-1 mx-1 md:inline block text-center">
+                    <img src="~/assets/images/icons/github.svg" alt="Github" class="h-5 dark:invert inline" /> github.com/NotXia
+                </a>
+    
+                <a href="https://huggingface.co/NotXia" class="rounded-full p-1 mx-1 md:inline block text-center">
+                    <img src="~/assets/images/icons/huggingface.svg" alt="Github" class="h-7 inline" /> huggingface.co/NotXia
+                </a>
+            </div>
+        </div>
+
         
         <div class="grid grid-flow-row-dense grid-cols-12 m-auto justify-center [&>*]:px-5 [&>*]:py-5">
             <NotXiaGithubio             class="lg:col-span-8 row-span-1 col-span-12" />
