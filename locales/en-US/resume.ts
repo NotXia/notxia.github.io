@@ -28,7 +28,7 @@ export default {
     "thesis title": "Thesis title",
     
     "diploma": "Technical Institute Diploma",
-    "aldini": "Aldini Valeriani, Bologna, Italy",
+    "aldini": "Aldini Valeriani, Italy",
     "diploma desc": "Informatics specialization",
     
     "web development": "Web development",
@@ -54,8 +54,10 @@ export default {
     "ois": "Informatics Olympiad in Teams",
     "ois description": "Team based programming competition.",
 
-    "MAST foundation": "MAST Foundation",
+    "MAST foundation": "MAST Foundation, Italy",
     "MAST expeditions description": "Design and implementation of an IOT box with Flip & Click programmable microcontrollers and " + 
-                                    "the Zerynth Studio development environment."
-    
+                                    "the Zerynth Studio development environment.",
+
+    "epfl": "EPFL, Switzerland",
+    "lauzhack description": "24-hour hackathon where my team tackled and was awarded first prize for the challenge proposed by Bristol Myers Squibb on probabilistic time series forecasting."
 }

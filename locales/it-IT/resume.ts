@@ -55,5 +55,8 @@ export default {
 
     "MAST foundation": "Fondazione MAST",
     "MAST expeditions description": "Progettazione e realizzazione di una scatola IOT attraverso l'utilizzo di schede programmabili Flip & Click e " + 
-                                    "l'ambiente di sviluppo Zerynth Studio."
+                                    "l'ambiente di sviluppo Zerynth Studio.",
+
+    "epfl": "EPFL, Svizzera",
+    "lauzhack description": "Hackathon di 24 ore in cui la mia squadra ha risolto e vinto il primo posto della challenge proposta da Bristol Myers Squibb su predizioni probabilistiche di time series."
 }

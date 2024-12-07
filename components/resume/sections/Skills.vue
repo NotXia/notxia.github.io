@@ -37,8 +37,8 @@
             </ul>
             <ul class="flex flex-wrap items-center">
                 <li><ProgrammingLogo :logo="jenkins_logo" language="Jenkins" /></li>
-                <li><ProgrammingLogo :logo="gitlab_runners_logo" language="Gitlab Runner" /></li>
-                <li><ProgrammingLogo :logo="github_actions_logo" language="Github Actions" /></li>
+                <li><ProgrammingLogo :logo="gitlab_runners_logo" language="GitLab Runner" /></li>
+                <li><ProgrammingLogo :logo="github_actions_logo" language="GitHub Actions" /></li>
             </ul>
         </ActivityParagraph>
         
