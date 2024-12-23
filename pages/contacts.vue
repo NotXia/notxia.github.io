@@ -13,6 +13,7 @@
                 <ContactLink label="t.me/notxia" url="https://t.me/notxia" :icon="telegram_icon" alt="Telegram" />
                 <ContactLink label="notpanda__" :icon="discord_icon" alt="Discord" />
                 <ContactLink label="linkedin.com/in/tian-cheng-xia" url="https://www.linkedin.com/in/tian-cheng-xia/" :icon="linkedin_icon" alt="LinkedIn" />
+                <ContactLink label="@notxia:matrix.notxia.duckdns.org" url="https://matrix.to/#/@notxia:matrix.notxia.duckdns.org" :icon="matrix_icon" alt="Matrix" />
             </div>
         </div>
     </main>
@@ -25,6 +26,7 @@
     import telegram_icon from "@/assets/images/icons/telegram.svg";
     import linkedin_icon from "@/assets/images/icons/linkedin.svg";
     import discord_icon from "@/assets/images/icons/discord.svg";
+    import matrix_icon from "@/assets/images/icons/matrix.svg";
 
     const { t } = useI18n();
     useHead({ title: t("title_contacts") });
