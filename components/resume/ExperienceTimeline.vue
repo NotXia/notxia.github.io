@@ -20,12 +20,12 @@
                     { 
                         title: $t('bs in cs'), time_label: '2020 - 2023',
                         description: $t('unibo'), 
-                        start: new Date(2020, september, 21), end: new Date(2023, october, 11), current: false
+                        start: new Date(2020, september, 21), end: new Date(2023, october, 11)
                     },
                     { 
                         title: $t('ms in ai'), time_label: '2023 - 2025',
                         description: $t('unibo'), 
-                        start: new Date(2023, september, 18), end: new Date(), current: true
+                        start: new Date(2023, september, 18), end: current
                     }
                 ]"
                 :left="[
@@ -55,6 +55,7 @@
     import { initTooltips } from "flowbite";
 
     const january = 0, february = 1, march = 2, april = 3, may = 4, june = 5, july = 6, august = 7, september = 8, october = 9, november = 10, december = 11;
+    const current = new Date(Date.now() + 24*60*60*1000)
 
     onMounted(() => {
         initTooltips();
