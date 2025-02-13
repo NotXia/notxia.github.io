@@ -13,7 +13,7 @@
                 <ContactLink label="t.me/notxia" url="https://t.me/notxia" :icon="telegram_icon" alt="Telegram" />
                 <ContactLink label="notpanda__" :icon="discord_icon" alt="Discord" />
                 <ContactLink label="linkedin.com/in/tian-cheng-xia" url="https://www.linkedin.com/in/tian-cheng-xia/" :icon="linkedin_icon" alt="LinkedIn" />
-                <ContactLink label="@notxia:matrix.notxia.ovh" url="https://matrix.to/#/@notxia:matrix.notxia.ovh" :icon="matrix_icon" alt="Matrix" />
+                <ContactLink label="@notxia:matrix.notatoaster.ovh" url="https://matrix.to/#/@notxia:matrix.notatoaster.ovh" :icon="matrix_icon" alt="Matrix" />
             </div>
         </div>
     </main>
