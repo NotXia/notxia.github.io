@@ -8,13 +8,13 @@ export default defineNuxtConfig({
         locales: [
             {
                 code: "en",
-                iso: "en-US",
+                language: "en-US",
                 name: "English",
                 files: ["en-US/general.ts", "en-US/projects.ts", "en-US/resume.ts"]
             },
             {
                 code: "it",
-                iso: "it-IT",
+                language: "it-IT",
                 name: "Italiano",
                 files: ["it-IT/general.ts", "it-IT/projects.ts", "it-IT/resume.ts"]
             },
