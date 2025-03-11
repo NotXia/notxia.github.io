@@ -37,7 +37,11 @@
 
     useHead({ 
         htmlAttrs: { lang: locale.value },
-        bodyAttrs: { class: "dark:bg-gray-900 dark:text-slate-50 bg-gray-100 text-gray-900"}
+        bodyAttrs: { class: "dark:bg-gray-900 dark:text-slate-50 bg-gray-100 text-gray-900"},
+        meta: [
+            { name: "description", content: "Personal website of a random AI student", lang: "en" },
+            { name: "description", content: "Sito web personale di uno studente di IA a caso", lang: "it" },
+        ],
     });
     watch(locale, (new_locale) => {
         useHead({ htmlAttrs: { lang: new_locale } });

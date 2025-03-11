@@ -46,7 +46,7 @@ export default {
 
     // Cookies
     "cookie policy title": "Cookie policy",
-    "cookie policy": "This website uses cookies but not for analysis purposes and they are not sent to third parties. " +  
+    "cookie policy": "This website uses cookies but not for analysis purposes, and they are not sent to third parties. " +  
                      "The only cookies here are those that I ate this morning, although I prefer a savory breakfast. " +
                      "I don't know why you are reading this, but thanks for keeping me company, I wish you a great day. " +
                      "If you would like some cookies too, do not hesitate to click on the following link:",
