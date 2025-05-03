@@ -69,11 +69,11 @@
     
     const props = defineProps({
         right: {
-            type: Object as PropType<Event[]>,
+            type: Array<Event>,
             default: []
         },
         left: {
-            type: Object as PropType<Event[]>,
+            type: Array<Event>,
             default: []
         },
     });
