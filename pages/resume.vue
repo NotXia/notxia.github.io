@@ -21,10 +21,11 @@
         <div class="flex flex-col md:flex-row">
             <div class="w-full md:w-2/3 order-1 md:order-2 md:pl-4 [&>*]:mt-8 first:[&>*]:mt-0">
                 <Education /> 
-                <Certificates /> 
                 <Work />
+                <Certificates /> 
                 <Skills />
                 <Other />
+                <Publications />
             </div>
 
             <div class="w-full md:w-1/3 mt-20 md:mt-0 order-2 md:order-1">

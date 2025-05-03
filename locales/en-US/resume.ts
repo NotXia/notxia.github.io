@@ -4,8 +4,9 @@ export default {
     "certificates": "Certificates",
     "skills": "Skills",
     "other": "Other activities",
+    "publications": "Publications",
     "link to certificate": "Link to certificate",
-    "future": "What will happen?",
+    "future": "What will happen next?",
     "like timelines": "I like timelines",
 
     "cv_link": "/cv/cv_xia_en1.pdf",
@@ -33,7 +34,7 @@ export default {
     
     "web development": "Web development",
     "devops": "DevOps",
-    "data analysis": "Data analysis",
+    "data analysis": "Data analysis and machine learning",
     "other programming languages": "Other programming languages",
 
 
@@ -43,7 +44,7 @@ export default {
     "cs50 ai description": "Problem solving using algorithms based on graphs, statistics, optimization and machine learning.",
 
 
-    "pcto toyota": "IT/IS Office, Internship",
+    "pcto toyota": "IT/IS Office Intern",
     "pcto toyota description": "Internship organized during high school.",
     "pcto toyota description list1": "IT support.",
     "pcto toyota description list2": "Maintenance and setup of network devices.",
@@ -59,5 +60,9 @@ export default {
                                     "the Zerynth Studio development environment.",
 
     "epfl": "EPFL, Switzerland",
-    "lauzhack description": "24-hour hackathon where my team tackled and was awarded first prize for the challenge proposed by Bristol Myers Squibb on probabilistic time series forecasting."
+    "lauzhack description": "24-hour hackathon where my team tackled and was awarded first prize for the challenge proposed by Bristol Myers Squibb on probabilistic time series forecasting.",
+ 
+    "under_review": "Under review",
+    "research intern": "Research Intern",
+    "japan": "Japan"
 }

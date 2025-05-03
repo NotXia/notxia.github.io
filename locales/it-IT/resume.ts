@@ -4,6 +4,7 @@ export default {
     "certificates": "Certificati",
     "skills": "Competenze",
     "other": "Altre attività",
+    "publications": "Pubblicazioni",
     "link to certificate": "Link al certificato",
     "future": "Chissà cosa succederà",
     "like timelines": "Mi piacciono le linee del tempo",
@@ -33,7 +34,7 @@ export default {
     
     "web development": "Sviluppo web",
     "devops": "DevOps",
-    "data analysis": "Data analysis",
+    "data analysis": "Data analysis e machine learning",
     "other programming languages": "Altri linguaggi di programmazione",
 
     
@@ -58,5 +59,9 @@ export default {
                                     "l'ambiente di sviluppo Zerynth Studio.",
 
     "epfl": "EPFL, Svizzera",
-    "lauzhack description": "Hackathon di 24 ore in cui la mia squadra ha risolto e vinto il primo posto della challenge proposta da Bristol Myers Squibb su predizioni probabilistiche di time series."
+    "lauzhack description": "Hackathon di 24 ore in cui la mia squadra ha risolto e vinto il primo posto della challenge proposta da Bristol Myers Squibb su predizioni probabilistiche di time series.",
+
+    "under_review": "In revisione",
+    "research intern": "Ricercatore tirocinante",
+    "japan": "Giappone"
 }
