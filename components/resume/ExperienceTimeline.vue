@@ -43,6 +43,11 @@
                         title: 'CISCO: IT Essentials', time_label: '2018',
                         description: 'CISCO Networking Academy', 
                         start: new Date(2018, september, 1), end: new Date(2018, september, 1)
+                    },
+                    { 
+                        title: $t('research intern'), time_label: `${$t('m_7')} 2025 - ${$t('m_1')} 2026`,
+                        description: `National Institute of Informatics, Tokyo, ${$t('japan')}`, 
+                        start: new Date(2025, july, 14), end: new Date(2026, january, 9)
                     }
                 ]" />
         </div>
