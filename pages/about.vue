@@ -20,13 +20,12 @@
                     <p>
                         Oltre a premere tasti sulla tastiera, 
                         mi piace leggere, 
-                        sperimentare in cucina <span class="text-xs">(preferibilmente con un estintore nei paraggi)</span> 
-                        e giocare a giochi strategici.
+                        sperimentare in cucina <span class="text-xs">(preferibilmente con un estintore nei paraggi)</span>,
+                        giocare a giochi strategici
+                        e spendere decisamente troppo tempo sul mio home server.
                     </p>
                     <p>
-                        Secondo <a class="hover:underline italic" href="https://www.16personalities.com">16Personalities</a> sono un 
-                        <a class="font-mono hover:underline" href="https://www.16personalities.com/profiles/6b57f54bf1242">Architetto (INTJ)</a>. 
-                        Devo dire che la descrizione è decisamente accurata.
+                        Dovrei probabilmente scrivere qualcos'altro, ma sono terribile a scrivere biografie, quindi tieni una ciambella 🍩.
                     </p>
                 </div>
 
@@ -42,13 +41,12 @@
                     <p>
                         Aside from pressing keys on a keyboard, 
                         I like reading, 
-                        cooking <span class="text-xs">(preferably with a fire extinguisher nearby)</span> 
-                        and playing strategic games.
+                        cooking <span class="text-xs">(preferably with a fire extinguisher nearby)</span>,
+                        playing strategic games
+                        and spending way too much time on my home server.
                     </p>
                     <p>
-                        According to <a class="hover:underline italic" href="https://www.16personalities.com">16Personalities</a>, I'm an 
-                        <a class="font-mono hover:underline" href="https://www.16personalities.com/profiles/6b57f54bf1242">Architect (INTJ)</a>. 
-                        I must admit that the description is quite accurate.
+                        I should probably write some more about me, but I'm terrible at writing biographies, so here's a donut 🍩.
                     </p>
                 </div>
 
