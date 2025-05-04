@@ -1,6 +1,6 @@
 <template>
 <ClientOnly>
-    <div v-if="show_banner" class="w-full h-full">
+    <div v-if="show_banner" class="w-full h-full" data-nosnippet>
 
         <div ref="container_cookie" class="absolute top-0 left-0 h-full w-full pointer-events-none z-40">
             <canvas ref="canvas_cookie" :width="canvas_width" :height="canvas_height"></canvas>
