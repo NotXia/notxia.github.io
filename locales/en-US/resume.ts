@@ -19,6 +19,9 @@ export default {
     "m_7": "July", "m_8": "Aug", "m_9": "Sept", "m_10": "Oct", "m_11": "Nov", "m_12": "Dec",
     "present": "present",
 
+    "italy": "Italy",
+    "japan": "Japan",
+
     "final grade": "Final grade",
     "graduation grade": "Graduation grade",
     "with honors": "cum laude",
@@ -64,5 +67,6 @@ export default {
  
     "under_review": "Under review",
     "research intern": "Research Intern",
-    "japan": "Japan"
+
+    "nii internship": "Research Intern"
 }

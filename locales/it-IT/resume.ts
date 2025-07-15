@@ -19,6 +19,9 @@ export default {
     "m_7": "Lug", "m_8": "Ago", "m_9": "Set", "m_10": "Ott", "m_11": "Nov", "m_12": "Dic",
     "present": "in corso",
 
+    "italy": "Italia",
+    "japan": "Giappone",
+
     "final grade": "Valutazione finale",
     "graduation grade": "Valutazione finale",
     "with honors": "con lode",
@@ -62,6 +65,6 @@ export default {
     "lauzhack description": "Hackathon di 24 ore in cui la mia squadra ha risolto e vinto il primo posto della challenge proposta da Bristol Myers Squibb su predizioni probabilistiche di time series.",
 
     "under_review": "In revisione",
+    
     "research intern": "Ricercatore tirocinante",
-    "japan": "Giappone"
 }
