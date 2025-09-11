@@ -8,7 +8,7 @@
             :highlight_author = "highlight_author"
             year = "2025"
             journal = "ACM Transactions on Computing for Healthcare"
-            doi = "" />
+            doi = "10.1145/3766905" />
 
         <PaperReference 
             title = "The Design and Realization of a Self-Hosted and Open-Source Agile Internal Development Platform"
