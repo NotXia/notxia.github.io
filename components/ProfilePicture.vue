@@ -1,29 +1,30 @@
 <template>
 
     <div class="relative">
-        <div class="flex items-center h-60 w-60">
-            <img v-show="picture === 'dark'"      src="~/assets/images/profile/picture-dark.png"     alt="" class="max-h-full max-w-full">
+        <div class="flex items-center h-80 w-80">
+            <!-- <img v-show="picture === 'dark'"      src="~/assets/images/profile/picture-dark.png"     alt="" class="max-h-full max-w-full">
             <img v-show="picture === 'light'"     src="~/assets/images/profile/picture-light.png"    alt="" class="max-h-full max-w-full">
             <img v-show="picture === 'bright'"    src="~/assets/images/profile/picture-bright.png"   alt="" class="max-h-full max-w-full">
-            <img v-show="picture === 'no light'"  src="~/assets/images/profile/picture-nolight.png"  alt="" class="max-h-full max-w-full">
+            <img v-show="picture === 'no light'"  src="~/assets/images/profile/picture-nolight.png"  alt="" class="max-h-full max-w-full"> -->
+            <img src="~/assets/images/profile/me.jpg" alt="Me with an Eevee hat holding an umbrella" class="max-h-full max-w-full rounded-md">
         </div>
 
-        <div v-if="message" class="absolute bottom-0 left-0 w-full">
+        <!-- <div v-if="message" class="absolute bottom-0 left-0 w-full">
             <p class="w-fit mx-auto px-2 pt-1 mb-1 bg-gray-200 dark:bg-gray-700">{{ message }}</p>
-        </div>
+        </div> -->
     </div>
 
 </template>
 
 
-<script setup lang="ts">
+<!-- <script setup lang="ts">
     const { t } = useI18n();
 
     const picture = ref(getTheme());
     const message = ref("");
 
 
-    // Finite-state automata to handle theme changes
+    Finite-state automata to handle theme changes
     interface State {
         image: string;      // Image to display
         message: string;    // Message to display (string to parse with i18n)
@@ -72,8 +73,8 @@
             }
         });
 
-        // Observes for theme changes
+        Observes for theme changes
         observer.observe((document.querySelector("html") as Node), { attributes: true, attributeFilter: ['class'] });
     });
 
-</script>
+</script> -->

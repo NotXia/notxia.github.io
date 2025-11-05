@@ -1,4 +1,4 @@
-const EASTER_EGGS = ["cookie", "future", "change-something", "picture-bright", "picture-nolights"];
+const EASTER_EGGS = ["cookie", "future", "change-something"];
 
 export function addFoundEasterEgg(name:string):void {
     if (!EASTER_EGGS.includes(name)) { return; }
