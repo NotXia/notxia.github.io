@@ -1,0 +1,1 @@
+import{_ as s,c as t,o,a as c,p as n}from"./BkfsQBgn.js";const _={},a={class:"flex flex-1 items-center py-0"},r={class:"w-full"};function l(e,d){return o(),t("div",a,[c("div",r,[n(e.$slots,"default")])])}const i=s(_,[["render",l]]);export{i as _};
