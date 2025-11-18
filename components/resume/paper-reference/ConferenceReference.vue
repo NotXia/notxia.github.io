@@ -4,9 +4,8 @@
             <span :class="`${props.highlight_author == author ? 'font-bold' : ''}`">{{ author }}</span><span v-if="i < props.authors.length-1">; </span>
         </span>. 
         ({{ props.year }}). "{{ props.title }}". 
-        <span class="italic">{{ journal }}</span>. 
-        <span v-if="doi === ''">{{ $t("under_review") }}</span>
-        <span v-if="doi !== ''"><span class="font-mono">DOI</span>: <a :href="`https://doi.org/${props.doi}`" class="font-mono hover:underline">{{ props.doi }}</a></span>.
+        <span>{{ conference }}</span>. 
+        <ReferenceLink :doi="doi" :openreview="openreview" />
     </div>
 </template>
 
@@ -17,7 +16,8 @@
         authors: { type: Array<String>, default: [] },
         highlight_author: String,
         year: String,
-        journal: String,
-        doi: { type: String, default: '' }
+        conference: String,
+        doi: { type: String, default: '' },
+        openreview: { type: String, default: '' }
     });
 </script>
