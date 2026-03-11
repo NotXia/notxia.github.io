@@ -6,7 +6,7 @@
         
         <!-- Prevents scrollbar shift -->
          <div style="margin-right: calc(-1 * (100vw - 100%));">
-            <div class="container mx-auto pb-8 px-3 md:px-8 min-h-screen w-screen flex flex-col">
+            <div class="container mx-auto pb-8 px-3 md:px-8 min-h-screen w-screen flex flex-col font-light">
                 <NuxtLayout>
                     <NuxtPage/>
                 </NuxtLayout>
