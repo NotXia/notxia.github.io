@@ -3,9 +3,10 @@
         <span v-for="(author, i) in props.authors">
             <span :class="`${props.highlight_author == author ? 'font-bold' : ''}`">{{ author }}</span><span v-if="i < props.authors.length-1">; </span>
         </span>. 
-        ({{ props.year }}). "{{ props.title }}". 
-        <span class="italic">{{ journal }}</span>. 
-        <ReferenceLink :doi="doi" :openreview="openreview" />
+        ({{ props.year }}).<br/>
+        "{{ props.title }}".<br/>
+        <span class="italic">{{ journal }}</span>.<br/>
+        <ReferenceLink :doi="doi" :openreview="openreview" :arxiv="arxiv" />
     </div>
 </template>
 
@@ -18,6 +19,7 @@
         year: String,
         journal: String,
         doi: { type: String, default: '' },
-        openreview: { type: String, default: '' }
+        openreview: { type: String, default: '' },
+        arxiv: { type: String, default: '' }
     });
 </script>
