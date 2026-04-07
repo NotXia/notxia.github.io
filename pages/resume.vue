@@ -4,7 +4,8 @@
     <main>
         <div class="flex justify-center items-start mt-2 mb-6">
             <div class="w-20 mx-5">
-                <a :href="$t('cv_link')" target="_blank">
+                <!-- <a :href="$t('cv_link')" target="_blank"> -->
+                <a href="/cv/cv_xia_en1.pdf" target="_blank">
                     <img src="~/assets/images/icons/pdf.svg" alt="Download" class="h-10 mx-auto dark:invert">
                     <p class="text-sm text-center mt-1">CV</p>
                 </a>
