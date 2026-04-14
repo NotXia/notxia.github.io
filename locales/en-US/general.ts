@@ -15,6 +15,9 @@ export default {
     "i am a": "I'm an",
     "cs student": "A.I. Student",
     "a very accurate description of me": "Sometimes a bit distracted",
+    "i do things": "I do things",
+    "with backpropagation": "with backpropagation",
+    "that work most of the times": "that work most of the times",
 
 
     // About

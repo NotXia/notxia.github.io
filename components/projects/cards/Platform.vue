@@ -1,11 +1,11 @@
 <template>
     <ProjectCard 
-        title="Platform game" :image="image"
+        title="Platform Game" :image="image"
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/platform-game' }
         ]">
         
-        <p class="text-center">{{ $t("unibo_20-21") }}</p>
+        <!-- <p class="text-center">{{ $t("unibo_20-21") }}</p> -->
         <p>{{ $t('platform.description') }}</p>
     </ProjectCard>
 </template>

@@ -8,6 +8,7 @@ export default {
     "link to certificate": "Link al certificato",
     "future": "Chissà cosa succederà",
     "like timelines": "Mi piacciono le linee del tempo",
+    "paper": "Paper",
 
     "cv_link": "/cv/cv_xia_it1.pdf",
     "cv_link_color": "/cv/cv_xia_it2.pdf",

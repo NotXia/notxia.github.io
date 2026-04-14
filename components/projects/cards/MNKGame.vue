@@ -5,7 +5,7 @@
             { label: 'Repository', url: 'https://github.com/NotXia/MNKGame' }
         ]">
         
-        <p class="text-center">{{ $t("unibo_20-21") }}</p>
+        <!-- <p class="text-center">{{ $t("unibo_20-21") }}</p> -->
         <p>{{ $t('mnk.description') }}</p>
     </ProjectCard>
 </template>

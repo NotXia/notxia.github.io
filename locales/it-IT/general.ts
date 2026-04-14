@@ -15,6 +15,9 @@ export default {
     "i am a": "Sono uno",
     "cs student": "Studente di I.A.",
     "a very accurate description of me": "A volte un po' distratto",
+    "i do things": "Faccio cose",
+    "with backpropagation": "con la backpropagation",
+    "that work most of the times": "che di solito funzionano",
 
 
     // About

@@ -5,7 +5,7 @@
             { label: 'Repository', url: 'https://github.com/NotXia/tablut-player' }
         ]">
         
-        <p class="text-center">{{ $t("unibo_23-24") }}</p>
+        <!-- <p class="text-center">{{ $t("unibo_23-24") }}</p> -->
         <p>{{ $t('tablut.description') }}</p>
     </ProjectCard>
 </template>
