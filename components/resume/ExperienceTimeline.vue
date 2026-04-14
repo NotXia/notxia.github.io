@@ -23,9 +23,9 @@
                         start: new Date(2020, september, 21), end: new Date(2023, october, 11)
                     },
                     { 
-                        title: $t('ms in ai'), time_label: '2023 - 2025',
+                        title: $t('ms in ai'), time_label: '2023 - 2026',
                         description: $t('unibo'), 
-                        start: new Date(2023, september, 18), end: current
+                        start: new Date(2023, september, 18), end: new Date(2026, march, 26)
                     }
                 ]"
                 :left="[
