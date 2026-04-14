@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as o,a as c,n}from"./CAF4g0az.js";const _={},a={class:"flex flex-1 items-center py-0"},r={class:"w-full"};function l(e,d){return t(),o("div",a,[c("div",r,[n(e.$slots,"default")])])}const i=s(_,[["render",l]]);export{i as _};
