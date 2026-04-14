@@ -5,7 +5,7 @@
             { label: 'Repository', url: 'https://github.com/NotXia/animal-house' }
         ]">
         
-        <p class="text-center">{{ $t("unibo_21-22") }}</p>
+        <!-- <p class="text-center">{{ $t("unibo_21-22") }}</p> -->
         <p>{{ $t('animalhouse.description') }}</p>
         <ul class="list-inside list-['-_']">
             <li>{{ $t('animalhouse.description.game') }}</li>

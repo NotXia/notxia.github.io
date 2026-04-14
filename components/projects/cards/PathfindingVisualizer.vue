@@ -1,6 +1,6 @@
 <template>
     <ProjectCard 
-        title="Pathfinding visualizer" :image="image"
+        title="Pathfinding Visualizer" :image="image"
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/pathfinding-visualizer' },
             { label: 'Demo', url: 'https://notxia.github.io/pathfinding-visualizer/' }

@@ -18,7 +18,12 @@
 
         
         <div class="grid grid-flow-row-dense grid-cols-12 m-auto justify-center [&>*]:px-5 [&>*]:py-5">
-            <NotXiaGithubio             class="lg:col-span-8 row-span-1 col-span-12" />
+            <NotXiaGithubio             class="lg:col-span-4 row-span-1 col-span-12" />
+            <StreetAnomaly              class="lg:col-span-8 row-span-1 col-span-12" />
+            <DistributedOptimization    class="lg:col-span-4 row-span-1 col-span-12" />
+            <CouriersOptimization       class="lg:col-span-4 row-span-1 col-span-12" />
+            <NaturalExamples            class="lg:col-span-4 row-span-1 col-span-12" />
+            <InstanceDetection          class="lg:col-span-8 row-span-1 col-span-12" />
             <NNFromScratch              class="lg:col-span-4 row-span-1 col-span-12" />
             <TablutPlayer               class="lg:col-span-4 row-span-1 col-span-12" />
             <BScThesis                  class="lg:col-span-8 row-span-1 col-span-12" />

@@ -1,11 +1,11 @@
 <template>
     <ProjectCard 
-        title="Image deblur" :image="image"
+        title="Image Deblur" :image="image"
         :links="[ 
             { label: 'Repository', url: 'https://github.com/NotXia/imaging' }
         ]">
         
-        <p class="text-center">{{ $t("unibo_21-22") }}</p>
+        <!-- <p class="text-center">{{ $t("unibo_21-22") }}</p> -->
         <p>{{ $t('imaging.description') }}</p>
     </ProjectCard>
 </template>

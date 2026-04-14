@@ -5,7 +5,7 @@
             { label: 'Repository', url: 'https://github.com/NotXia/tweet-analysis' }
         ]">
         
-        <p class="text-center">{{ $t("unibo_22-23") }}</p>
+        <!-- <p class="text-center">{{ $t("unibo_22-23") }}</p> -->
         <p>{{ $t('tweet_analysis.description') }}</p>
     </ProjectCard>
 </template>
