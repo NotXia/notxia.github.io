@@ -1,6 +1,24 @@
+<style>
+    @keyframes float {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-3px, -8px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+    }
+
+    .animate-float {
+    animation: float 5s ease-in-out infinite;
+    }
+</style>
+
 <template>
     <div v-if="current_name !== ''" class="w-52">
-        <img :src="current_image" alt="" class="h-40 max-w-xs max-w- mx-auto" @click="userChangeThing">
+        <img :src="current_image" alt="" class="h-40 max-w-xs max-w- mx-auto animate-float" @click="userChangeThing">
         <p class="text-center text-sm mt-2 select-none">{{ $t(current_name) }}</p>
     </div>
 </template>
