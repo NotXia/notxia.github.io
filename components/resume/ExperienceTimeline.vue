@@ -45,6 +45,11 @@
                         start: new Date(2018, september, 1), end: new Date(2018, september, 1)
                     },
                     { 
+                        title: $t('research intern'), time_label: `${$t('m_4')} 2023 - ${$t('m_9')} 2023`,
+                        description: `SmartData Research Group, Bologna, ${$t('italy')}`, 
+                        start: new Date(2023, april, 1), end: new Date(2023, september, 1)
+                    },
+                    { 
                         title: $t('research intern'), time_label: `${$t('m_7')} 2025 - ${$t('m_1')} 2026`,
                         description: `National Institute of Informatics, Tokyo, ${$t('japan')}`, 
                         start: new Date(2025, july, 14), end: new Date(2026, january, 9)

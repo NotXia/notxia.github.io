@@ -10,6 +10,13 @@
         </ActivityParagraph>
 
         <ActivityParagraph 
+            :title="$t('research intern')" 
+            :subtitle="`SmartData Research Group, Bologna, ${$t('italy')}`" 
+            :right_text="`${$t('april')} 2023 - ${$t('september')} 2023`"
+        >
+        </ActivityParagraph>
+
+        <ActivityParagraph 
             :title="$t('pcto toyota')" 
             :subtitle="`Toyota Material Handling Manufacturing, Bologna, ${$t('italy')}`" 
             :right_text="`${$t('december')} 2019 | ${$t('july')} 2019 | ${$t('february')} 2019`"
