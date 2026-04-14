@@ -2,7 +2,12 @@
     <div>
         <h2 class="text-4xl font-bold tracking-wide">{{ $t("education") }}</h2>
 
-        <ActivityParagraph :title="$t('ms in ai')" :subtitle="$t('unibo')" :right_text="`2023 - ${$t('present')}`">
+        <ActivityParagraph :title="$t('ms in ai')" :subtitle="$t('unibo')" :right_text="`2023 - 2026`">
+            <div>
+                {{ $t("thesis title") }}:&nbsp;
+                <a class="font-mono hover:underline" href="https://raw.githubusercontent.com/NotXia/self-supervised-xai-thesis/main/thesis/thesis.pdf">A Self-Supervised Attribution Method for Explaining Neural Networks</a>
+            </div>
+            <div>{{ $t("graduation grade") }}: 110/110 {{ $t("with honors") }}</div>
         </ActivityParagraph>
         
         <ActivityParagraph :title="$t('bs in cs')" :subtitle="$t('unibo')" :right_text="`2020 - 2023`">
