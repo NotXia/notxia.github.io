@@ -44,6 +44,7 @@ export default {
     "title_about": "Chi sono",
     "title_projects": "Progetti",
     "title_resume": "CV",
+    "title_publications": "Pubblicazioni",
     "title_contacts": "Salutami",
     "log_hello": "Ciao 🐡",
 

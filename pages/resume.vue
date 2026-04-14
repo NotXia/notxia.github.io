@@ -26,7 +26,7 @@
                 <Certificates /> 
                 <Skills />
                 <Other />
-                <Publications />
+                <!-- <Publications /> -->
             </div>
 
             <div class="w-full md:w-1/3 mt-20 md:mt-0 order-2 md:order-1">
