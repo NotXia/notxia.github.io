@@ -43,6 +43,7 @@ export default {
     "title_about": "About",
     "title_projects": "Projects",
     "title_resume": "Résumé",
+    "title_publications": "Publications",
     "title_contacts": "Say hi",
     "log_hello": "Hello 🐡",
 

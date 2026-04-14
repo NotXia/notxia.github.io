@@ -25,6 +25,7 @@
                         <NavLink to="/about" :label="$t('about')"/>
                         <NavLink to="/projects" :label="$t('projects')"/>
                         <NavLink to="/resume" :label="$t('resume')"/>
+                        <NavLink to="/publications" :label="$t('publications')"/>
                         <NavLink to="/contacts" :label="$t('contacts')"/>
                     </ul>
                 </div>
