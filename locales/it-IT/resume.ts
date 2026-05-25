@@ -67,5 +67,5 @@ export default {
 
     "under_review": "In revisione",
     
-    "research intern": "Ricercatore tirocinante",
+    "research intern": "Ricercatore tirocinante in ML",
 }

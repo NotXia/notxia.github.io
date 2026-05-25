@@ -67,7 +67,7 @@ export default {
     "lauzhack description": "24-hour hackathon where my team tackled and was awarded first prize for the challenge proposed by Bristol Myers Squibb on probabilistic time series forecasting.",
  
     "under_review": "Under review",
-    "research intern": "Research Intern",
+    "research intern": "ML Research Intern",
 
-    "nii internship": "Research Intern"
+    "nii internship": "ML Research Intern"
 }
