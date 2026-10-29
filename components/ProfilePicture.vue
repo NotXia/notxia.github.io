@@ -6,7 +6,7 @@
             <img v-show="picture === 'light'"     src="~/assets/images/profile/picture-light.png"    alt="" class="max-h-full max-w-full">
             <img v-show="picture === 'bright'"    src="~/assets/images/profile/picture-bright.png"   alt="" class="max-h-full max-w-full">
             <img v-show="picture === 'no light'"  src="~/assets/images/profile/picture-nolight.png"  alt="" class="max-h-full max-w-full"> -->
-            <img src="~/assets/images/profile/me.jpg" alt="Me with an Eevee hat holding an umbrella" class="max-h-full max-w-full rounded-md">
+            <img src="~/assets/images/profile/me-with-kangaroo.jpg" alt="Me with a kangaroo" class="max-h-full max-w-full rounded-md">
         </div>
 
         <!-- <div v-if="message" class="absolute bottom-0 left-0 w-full">
